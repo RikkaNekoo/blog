@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>杂物间 on Rikkaの小小窝</title>
+        <link>http://localhost:1313/categories/%E6%9D%82%E7%89%A9%E9%97%B4/</link>
+        <description>Recent content in 杂物间 on Rikkaの小小窝</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Rikka</copyright>
+        <lastBuildDate>Sat, 04 May 2024 16:55:23 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%9D%82%E7%89%A9%E9%97%B4/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>零刻SER5 MAX使用体验</title>
+        <link>http://localhost:1313/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</link>
+        <pubDate>Sat, 04 May 2024 16:55:23 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</guid>
+        <description>&lt;h1 id=&#34;零刻ser5-max使用体验&#34;&gt;零刻SER5 MAX使用体验
+&lt;/h1&gt;&lt;h2 id=&#34;参数以及外观&#34;&gt;参数以及外观
+&lt;/h2&gt;&lt;h3 id=&#34;外观&#34;&gt;外观
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.zhihu.com/tardis/bd/art/651914200&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;图片来源&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp?consumer=ZHI_MENG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;正面&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic2.zhimg.com/v2-d2e7c3084966a9a5e65cc08c6884f3c9_b.webp?consumer=ZHI_MENG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;背面&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;根据官方提供的参数，主机的尺寸为 126x113x42mm&lt;br&gt;
+整机很轻便，要是口袋大点的甚至可以塞口袋里&lt;/p&gt;
+&lt;h3 id=&#34;参数&#34;&gt;参数
+&lt;/h3&gt;&lt;p&gt;I/O接口方面&lt;br&gt;
+前面板有CLR CMOS键一个、USB 3.2 Gen 1三个，其中Type-A两个，Type-C一个(支持DP视频输出，PD供电，但不支持反向供电)、||极为先进的||3.5mm TRRS一个、电源键兼状态指示灯一个&lt;br&gt;
+后置有1Gbps RJ45一个、USB 3.2 Gen 1 Type-A一个、USB 2.0 Type-A一个、DP一个，HDMI一个、19V DC-IN一个、还有我自己装的SFF-8612 (OCuLink)一个&lt;br&gt;
+在主机内部有SATA 3.0一个、PCIe 3.0 x4 M.2 2280一个、PCIe 2.0 x1 M.2 2230一个以及SO-DIMM DDR4两个&lt;/p&gt;
+&lt;p&gt;详细配置如表&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;硬件&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;型号&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;CPU&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;AMD Ryzen 7 5800H&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;GPU&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;AMD Radeon Vega 8 / NVIDIA Tesla M40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;RAM&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Gloway DDR4-2666 16G&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;硬盘&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Zhitai SC001 Active 1T&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;声卡&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Realtek ALC897&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;有线网卡&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Realtek RTL8168&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;无线网卡&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Intel AX200&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;使用体验&#34;&gt;使用体验
+&lt;/h2&gt;&lt;p&gt;做工很棒，拆开机器里面可以说是赏心悦目，仿佛一个工艺品，比我之前的天钡MN5X好很多&lt;br&gt;
+到手之后插上硬盘和内存秒开，没有奇奇怪怪的内存兼容性问题&lt;br&gt;
+很小巧，买个便携屏可以带着到处跑&lt;/p&gt;
+&lt;p&gt;性能的话，将PBO三项拉满并将Scalar调整至10x后满载可以短暂的跑上全核4.1Ghz，但坚持不了几秒钟就会降频到3.6-3.7Ghz，CPU-Z的分数变化大概就是从5950+降到5280+&lt;br&gt;
+试了下用核显来打CHUNITHM LMN，窗口化遇到特效复杂的地方会掉帧挺严重，其他游戏待测试&lt;br&gt;
+BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDFormBrowser设置&lt;/p&gt;
+&lt;p&gt;风扇比较安静，没有负载的情况下放在身边睡觉都OK，不过满载噪音还是很大的（毕竟AMD祖传积热问题）&lt;/p&gt;
+&lt;p&gt;外接M40之后性能有了质的飞跃，改了温控之后声音表现也很棒了，完全可以开着过夜
+&lt;strong&gt;To do&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结
+&lt;/h2&gt;&lt;p&gt;整体的使用体验还是不错的，日常办公写文章写代码玩Gal完全够用 &lt;del&gt;(废话)&lt;/del&gt;&lt;br&gt;
+现正使用OCuLink外接M40，游戏性能完全过关了&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>半报废的Surface Go2拯救计划</title>
+        <link>http://localhost:1313/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</link>
+        <pubDate>Fri, 12 Apr 2024 18:23:55 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</guid>
+        <description>&lt;h1 id=&#34;半报废的surface-go2拯救计划&#34;&gt;半报废的Surface Go2拯救计划
+&lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
+&lt;/h2&gt;&lt;p&gt;21年的时候一时起兴想买台Windows二合一平板，于是买了台Surface Go2，但是性能过于羸弱，而且发热十分严重，于是吃灰至今&lt;br&gt;
+目前的状态是键盘丢失，USB3.1无法识别，只能用2.0，属于是半报废的状态&lt;br&gt;
+而官方维修又属实贵的离谱 (2000+)，所以就研究一下能不能让她焕发新机&lt;/p&gt;
+&lt;h2 id=&#34;探索过程&#34;&gt;探索过程
+&lt;/h2&gt;&lt;h3 id=&#34;音游&#34;&gt;音游
+&lt;/h3&gt;&lt;p&gt;作为一个音游人，最先考虑到的当然是打音游啦&lt;br&gt;
+但是很可惜，这台板子的触控真的是我碰过的最差的，没有之一&lt;br&gt;
+我曾尝试过包括但不限于：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用Moonlight+Sunshine串流打maimai，但由于延迟太大和多押断触，根本玩不下去&lt;/li&gt;
+&lt;li&gt;使用Brokenithm打CHUNITHM，依然还是多押断触&lt;/li&gt;
+&lt;li&gt;装FydeOS打移动端音游，无一例外都是延迟很大并且明显卡顿&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;因此打音游直接Pass&lt;/p&gt;
+&lt;h3 id=&#34;galgame&#34;&gt;GalGame
+&lt;/h3&gt;&lt;p&gt;既然音游不行，那配置要求更小的GalGame又如何呢？
+答案依旧是不行&lt;br&gt;
+原因就在于Surface Go2的屏幕并不是标准16:9的1080P，而是3:2的1920x1280&lt;br&gt;
+那么这就会导致运行部分Gal会出现一些奇奇怪怪的图形问题，比如说窗口鬼畜，或者根本打不开游戏&lt;br&gt;
+唯一的解决办法就是把分辨率调到1920x1080，但那样的话就得忍受上下大黑边&lt;/p&gt;
+&lt;h3 id=&#34;android&#34;&gt;Android
+&lt;/h3&gt;&lt;p&gt;你或许注意到了，我上文提到了一个词 &lt;strong&gt;FydeOS&lt;/strong&gt;&lt;br&gt;
+这是一个基于Chromium OS二次开发的系统，兼容Android环境并且高度集成，而且有对Surface系列专门适配过的版本&lt;br&gt;
+但Surface Go2的表现依然是不尽人意的&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;FydeOS 更新日志：&lt;br&gt;
+鉴于 Microsoft Surface 硬件的特殊性，目前只能使用仍在开发中的实验性触控驱动方案。&lt;strong&gt;这会导致触摸识别时有不灵敏的现象。&lt;/strong&gt;&lt;br&gt;
+鉴于 Microsoft Surface 硬件的特殊性，以下功能在 Surface 家族的硬件中暂时未能支持：&lt;br&gt;
+摄像头&lt;br&gt;
+重新启动时用 PIN 码登录&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不仅如此，由于m3-8100y和UHD615本身的性能就十分差，再加上驱动问题和转译，运行Android应用的效率低得要命，还有很严重的发热问题&lt;br&gt;
+因此作为Android平板使用也不在我们考虑范围之内&lt;br&gt;
+&lt;del&gt;u1s1应该没人会花大几千买台Win板然后跑Android&lt;/del&gt;&lt;/p&gt;
+&lt;h3 id=&#34;nothing-to-do&#34;&gt;Nothing To Do
+&lt;/h3&gt;&lt;p&gt;已经出了，本文终结&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结
+&lt;/h2&gt;&lt;p&gt;总是就是干啥啥不行，发热卡顿第一名&lt;br&gt;
+没什么好总结的了&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
