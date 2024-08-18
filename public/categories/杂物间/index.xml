@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>杂物间 on Rikkaの小小窝</title>
-        <link>http://localhost:1313/categories/%E6%9D%82%E7%89%A9%E9%97%B4/</link>
+        <link>https://rikka.im/categories/%E6%9D%82%E7%89%A9%E9%97%B4/</link>
         <description>Recent content in 杂物间 on Rikkaの小小窝</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rikka</copyright>
-        <lastBuildDate>Sat, 04 May 2024 16:55:23 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%9D%82%E7%89%A9%E9%97%B4/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 04 May 2024 16:55:23 +0000</lastBuildDate><atom:link href="https://rikka.im/categories/%E6%9D%82%E7%89%A9%E9%97%B4/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>零刻SER5 MAX使用体验</title>
-        <link>http://localhost:1313/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</link>
+        <link>https://rikka.im/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</link>
         <pubDate>Sat, 04 May 2024 16:55:23 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</guid>
+        <guid>https://rikka.im/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</guid>
         <description>&lt;h1 id=&#34;零刻ser5-max使用体验&#34;&gt;零刻SER5 MAX使用体验
 &lt;/h1&gt;&lt;h2 id=&#34;参数以及外观&#34;&gt;参数以及外观
 &lt;/h2&gt;&lt;h3 id=&#34;外观&#34;&gt;外观
@@ -101,10 +101,10 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
         </item>
         <item>
         <title>半报废的Surface Go2拯救计划</title>
-        <link>http://localhost:1313/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</link>
+        <link>https://rikka.im/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</link>
         <pubDate>Fri, 12 Apr 2024 18:23:55 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</guid>
+        <guid>https://rikka.im/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</guid>
         <description>&lt;h1 id=&#34;半报废的surface-go2拯救计划&#34;&gt;半报废的Surface Go2拯救计划
 &lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;21年的时候一时起兴想买台Windows二合一平板，于是买了台Surface Go2，但是性能过于羸弱，而且发热十分严重，于是吃灰至今&lt;br&gt;

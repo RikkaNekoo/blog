@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Dev on Rikkaの小小窝</title>
-        <link>http://localhost:1313/tags/dev/</link>
+        <link>https://rikka.im/tags/dev/</link>
         <description>Recent content in Dev on Rikkaの小小窝</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rikka</copyright>
-        <lastBuildDate>Fri, 31 May 2024 14:36:07 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/dev/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 31 May 2024 14:36:07 +0000</lastBuildDate><atom:link href="https://rikka.im/tags/dev/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Tesla M40 上手体验</title>
-        <link>http://localhost:1313/post/tesla-m40-%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</link>
+        <link>https://rikka.im/post/tesla-m40-%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</link>
         <pubDate>Fri, 31 May 2024 14:36:07 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/tesla-m40-%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</guid>
+        <guid>https://rikka.im/post/tesla-m40-%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</guid>
         <description>&lt;h1 id=&#34;tesla-m40-上手体验&#34;&gt;Tesla M40 上手体验
 &lt;/h1&gt;&lt;h2 id=&#34;关于&#34;&gt;关于
 &lt;/h2&gt;&lt;p&gt;买了台零刻SER5 MAX，对Vega 7羸弱的性能实在是难以忍受&lt;br&gt;
@@ -75,10 +75,10 @@ To do&lt;/p&gt;
         </item>
         <item>
         <title>Artemis反向代理配置参考</title>
-        <link>http://localhost:1313/post/artemis%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83/</link>
+        <link>https://rikka.im/post/artemis%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83/</link>
         <pubDate>Sat, 20 Jan 2024 13:31:12 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/artemis%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83/</guid>
+        <guid>https://rikka.im/post/artemis%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83/</guid>
         <description>&lt;h1 id=&#34;artemis反向代理配置参考&#34;&gt;Artemis反向代理配置参考
 &lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;如果你想要将 Artemis 放在服务器上使用的话，那应该很需要反向代理&lt;br&gt;
@@ -468,10 +468,10 @@ core.yaml
         </item>
         <item>
         <title>Artemis不完全食用指南</title>
-        <link>http://localhost:1313/post/artemis%E4%B8%8D%E5%AE%8C%E5%85%A8%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+        <link>https://rikka.im/post/artemis%E4%B8%8D%E5%AE%8C%E5%85%A8%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/</link>
         <pubDate>Sun, 07 Jan 2024 01:35:33 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/artemis%E4%B8%8D%E5%AE%8C%E5%85%A8%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+        <guid>https://rikka.im/post/artemis%E4%B8%8D%E5%AE%8C%E5%85%A8%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
         <description>&lt;h1 id=&#34;artemis不完全食用指南&#34;&gt;Artemis不完全食用指南
 &lt;/h1&gt;&lt;h2 id=&#34;介绍&#34;&gt;介绍
 &lt;/h2&gt;&lt;p&gt;Artemis 没什么好介绍的了吧，给 SEGA 系 HDD 用的本地服，算是 Aqua 的继承者？&lt;/p&gt;

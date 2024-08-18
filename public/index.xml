@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Rikkaの小小窝</title>
-        <link>http://localhost:1313/</link>
+        <link>https://rikka.im/</link>
         <description>Recent content on Rikkaの小小窝</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rikka</copyright>
-        <lastBuildDate>Fri, 31 May 2024 14:36:07 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 31 May 2024 14:36:07 +0000</lastBuildDate><atom:link href="https://rikka.im/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Tesla M40 上手体验</title>
-        <link>http://localhost:1313/post/tesla-m40-%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</link>
+        <link>https://rikka.im/post/tesla-m40-%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</link>
         <pubDate>Fri, 31 May 2024 14:36:07 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/tesla-m40-%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</guid>
+        <guid>https://rikka.im/post/tesla-m40-%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</guid>
         <description>&lt;h1 id=&#34;tesla-m40-上手体验&#34;&gt;Tesla M40 上手体验
 &lt;/h1&gt;&lt;h2 id=&#34;关于&#34;&gt;关于
 &lt;/h2&gt;&lt;p&gt;买了台零刻SER5 MAX，对Vega 7羸弱的性能实在是难以忍受&lt;br&gt;
@@ -75,10 +75,10 @@ To do&lt;/p&gt;
         </item>
         <item>
         <title>零刻SER5 MAX使用体验</title>
-        <link>http://localhost:1313/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</link>
+        <link>https://rikka.im/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</link>
         <pubDate>Sat, 04 May 2024 16:55:23 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</guid>
+        <guid>https://rikka.im/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</guid>
         <description>&lt;h1 id=&#34;零刻ser5-max使用体验&#34;&gt;零刻SER5 MAX使用体验
 &lt;/h1&gt;&lt;h2 id=&#34;参数以及外观&#34;&gt;参数以及外观
 &lt;/h2&gt;&lt;h3 id=&#34;外观&#34;&gt;外观
@@ -167,10 +167,10 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
         </item>
         <item>
         <title>半报废的Surface Go2拯救计划</title>
-        <link>http://localhost:1313/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</link>
+        <link>https://rikka.im/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</link>
         <pubDate>Fri, 12 Apr 2024 18:23:55 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</guid>
+        <guid>https://rikka.im/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</guid>
         <description>&lt;h1 id=&#34;半报废的surface-go2拯救计划&#34;&gt;半报废的Surface Go2拯救计划
 &lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;21年的时候一时起兴想买台Windows二合一平板，于是买了台Surface Go2，但是性能过于羸弱，而且发热十分严重，于是吃灰至今&lt;br&gt;
@@ -216,10 +216,10 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
         </item>
         <item>
         <title>DN42</title>
-        <link>http://localhost:1313/dn42/</link>
+        <link>https://rikka.im/dn42/</link>
         <pubDate>Fri, 22 Mar 2024 13:40:02 +0000</pubDate>
         
-        <guid>http://localhost:1313/dn42/</guid>
+        <guid>https://rikka.im/dn42/</guid>
         <description>&lt;h1 id=&#34;dn42&#34;&gt;DN42
 &lt;/h1&gt;&lt;h2 id=&#34;一些信息&#34;&gt;一些信息
 &lt;/h2&gt;&lt;ul&gt;
@@ -265,10 +265,10 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
         </item>
         <item>
         <title>Artemis反向代理配置参考</title>
-        <link>http://localhost:1313/post/artemis%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83/</link>
+        <link>https://rikka.im/post/artemis%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83/</link>
         <pubDate>Sat, 20 Jan 2024 13:31:12 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/artemis%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83/</guid>
+        <guid>https://rikka.im/post/artemis%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83/</guid>
         <description>&lt;h1 id=&#34;artemis反向代理配置参考&#34;&gt;Artemis反向代理配置参考
 &lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;如果你想要将 Artemis 放在服务器上使用的话，那应该很需要反向代理&lt;br&gt;
@@ -658,10 +658,10 @@ core.yaml
         </item>
         <item>
         <title>关于我</title>
-        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
+        <link>https://rikka.im/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
         <pubDate>Sun, 07 Jan 2024 02:29:24 +0000</pubDate>
         
-        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
+        <guid>https://rikka.im/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
         <description>&lt;h1 id=&#34;关于我&#34;&gt;关于我
 &lt;/h1&gt;&lt;h2 id=&#34;一些信息&#34;&gt;一些信息
 &lt;/h2&gt;&lt;p&gt;你好，这里 Rikka，或者也可以叫我六花||、刘华、6flower||，以及常用名 RikkaNaa，RikkaNya&lt;br&gt;
@@ -738,10 +738,10 @@ BakaXL: Rikkawa#5148&lt;br&gt;
         </item>
         <item>
         <title>Artemis不完全食用指南</title>
-        <link>http://localhost:1313/post/artemis%E4%B8%8D%E5%AE%8C%E5%85%A8%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+        <link>https://rikka.im/post/artemis%E4%B8%8D%E5%AE%8C%E5%85%A8%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/</link>
         <pubDate>Sun, 07 Jan 2024 01:35:33 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/artemis%E4%B8%8D%E5%AE%8C%E5%85%A8%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+        <guid>https://rikka.im/post/artemis%E4%B8%8D%E5%AE%8C%E5%85%A8%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
         <description>&lt;h1 id=&#34;artemis不完全食用指南&#34;&gt;Artemis不完全食用指南
 &lt;/h1&gt;&lt;h2 id=&#34;介绍&#34;&gt;介绍
 &lt;/h2&gt;&lt;p&gt;Artemis 没什么好介绍的了吧，给 SEGA 系 HDD 用的本地服，算是 Aqua 的继承者？&lt;/p&gt;
