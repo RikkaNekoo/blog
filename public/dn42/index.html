@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://rikka.im/dn42/'>
 
-<link rel="stylesheet" href="/scss/style.min.dbffe599d39b5101878d9951df29962259a818b09d14cc9b8711921c1476df8f.css"><meta property='og:title' content="DN42">
+<link rel="stylesheet" href="/scss/style.min.0b2aba3282870643ad43ccdfd0bc80e0b95bfa067b49a73451bfa27353ed0d9a.css"><meta property='og:title' content="DN42">
 <meta property='og:description' content="DN42 一些信息 ASN: 4242421241 IPv4 地址池：172.21.114.128/27 IPv6 地址池：fd9e:4aa0:6260::/48 MP-BGP: 支持 隧道工具：WireGuard">
 <meta property='og:url' content='https://rikka.im/dn42/'>
 <meta property='og:site_name' content='Rikkaの小小窝'>
@@ -61,7 +61,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu16114154707982509121.png" width="300"
+                        <img src="/img/avatar_hu9344251879842479875.webp" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -75,7 +75,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">Rikkaの小小窝</a></h1>
-            <h2 class="site-description">Eclipse first, the rest nowhere</h2>
+            <h2 class="site-description">Eclipse first, the rest nowhere.</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -221,8 +221,27 @@
         </li>
         
         
+        <li >
+            <a href='/friends/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>朋友们</span>
+            </a>
+        </li>
+        
+        
         <li  class='current' >
-            <a href='/dn42' >
+            <a href='/dn42/' >
                 
                 
                 
@@ -242,20 +261,39 @@
         
         
         <li >
-            <a href='/friends' >
+            <a href='/about-me/' >
                 
                 
                 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
 </svg>
 
 
 
                 
-                <span>友链</span>
+                <span>关于我</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
             </a>
         </li>
         
@@ -414,12 +452,11 @@
 <ol>
 <li>ASN</li>
 <li>公网 IP</li>
-<li>DN42 IPv4 &amp; IPv6</li>
-</ol>
+<li>DN42 IPv4 &amp; IPv6
 <ul>
 <li>我倾向于使用 IPv6 Link-local Peer</li>
 </ul>
-<ol start="4">
+</li>
 <li>需要 Peer 的服务器</li>
 <li>WireGuard 公钥</li>
 </ol>
@@ -457,23 +494,49 @@
      
     
         
-    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
-<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
-<div id="waline" class="waline-container"></div>
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.21/dist/twikoo.all.min.js"></script>
+<div id="tcomment"></div>
 <style>
-    .waline-container {
+    .twikoo {
         background-color: var(--card-background);
         border-radius: var(--card-border-radius);
         box-shadow: var(--shadow-l1);
         padding: var(--card-padding);
-        --waline-font-size: var(--article-font-size);
     }
-    .waline-container .wl-count {
-        color: var(--card-text-color-main);
+    :root[data-scheme="dark"] {
+        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
+        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
+    }
+    .twikoo .el-input-group__prepend,
+    .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
+    .twikoo .tk-time,
+    .twikoo .tk-comments-no,
+    .twikoo .tk-comments-count {
+        color: var(--twikoo-body-text-color);
+    }
+    .twikoo .el-input__inner,
+    .twikoo .el-textarea__inner,
+    .twikoo .tk-preview-container,
+    .twikoo .tk-content,
+    .twikoo .tk-nick,
+    .twikoo .tk-send {
+        color: var(--twikoo-body-text-color-main);
+    }
+    .twikoo .el-button{
+        color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
+    }
+    .OwO .OwO-body {
+        background-color: var(--body-background) !important;
+        color: var(--body-text-color) !important;
     }
 </style><script>
-    
-    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://unpkg.com/@waline/emojis@1.0.1/weibo"],"lang":"zh-CN","locale":{"admin":"Admin","placeholder":"Meow~"},"pageview":true,"requiredMeta":["name","email","url"],"serverURL":"https://comment.rikka.im"});
+    twikoo.init({
+        envId: 'https:\/\/twikoo.rikka.im',
+        el: '#tcomment',lang: 'zh-CN',})
 </script>
 
     
@@ -486,6 +549,8 @@
     </section>
     
     <section class="powerby">
+        
+            <a href="https://icp.gov.moe/?keyword=20240925" target="_blank">萌ICP备20240925号</a> <br/>
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
         主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>

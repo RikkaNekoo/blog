@@ -43,12 +43,11 @@
 &lt;ol&gt;
 &lt;li&gt;ASN&lt;/li&gt;
 &lt;li&gt;公网 IP&lt;/li&gt;
-&lt;li&gt;DN42 IPv4 &amp;amp; IPv6&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;DN42 IPv4 &amp;amp; IPv6
 &lt;ul&gt;
 &lt;li&gt;我倾向于使用 IPv6 Link-local Peer&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol start=&#34;4&#34;&gt;
+&lt;/li&gt;
 &lt;li&gt;需要 Peer 的服务器&lt;/li&gt;
 &lt;li&gt;WireGuard 公钥&lt;/li&gt;
 &lt;/ol&gt;
@@ -58,18 +57,22 @@
         </item>
         <item>
         <title>关于我</title>
-        <link>https://rikka.im/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
+        <link>https://rikka.im/about-me/</link>
         <pubDate>Sun, 07 Jan 2024 02:29:24 +0000</pubDate>
         
-        <guid>https://rikka.im/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
+        <guid>https://rikka.im/about-me/</guid>
         <description>&lt;h1 id=&#34;关于我&#34;&gt;关于我
 &lt;/h1&gt;&lt;h2 id=&#34;一些信息&#34;&gt;一些信息
-&lt;/h2&gt;&lt;p&gt;你好，这里 Rikka，或者也可以叫我六花||、刘华、6flower||，以及常用名 RikkaNaa，RikkaNya&lt;br&gt;
+&lt;/h2&gt;&lt;p&gt;你好，这里Rikka，或者也可以叫我六花 &lt;del&gt;、刘华、6flower&lt;/del&gt; ，以及常用名RikkaNaa，RikkaNya&lt;br&gt;
 关于这个名字，大概是几年前在看中二病的时候用的微信名，久而久之被朋友叫习惯了））&lt;/p&gt;
 &lt;h2 id=&#34;关于我-1&#34;&gt;关于我
 &lt;/h2&gt;&lt;p&gt;很高兴认识你！&lt;/p&gt;
 &lt;p&gt;爱好极其广泛，你或许在各种圈子都能见到我&lt;/p&gt;
-&lt;p&gt;ACG 爱好者&lt;/p&gt;
+&lt;p&gt;ACGN爱好者，成分超级复杂，基本以打音游居多，是百合爱好者&lt;br&gt;
+喜欢各种与计算机有关的东西&lt;br&gt;
+可能是一六年上下，我获得了人生中第一台电脑，于是便不可收拾的投入到计算机中，不过这么多年了似乎还是什么都不懂（笑&lt;br&gt;
+曾经混iOS越狱圈、Android刷机圈，当过Buildbot，学过一点点(真的只有一点点)Python和C++，拿过几个没用的奖项&lt;br&gt;
+现在在玩DN42以及折腾各种 &lt;del&gt;无意义&lt;/del&gt; 的事物&lt;/p&gt;
 &lt;h2 id=&#34;开发环境&#34;&gt;开发环境
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/zh-cn/software-download/windows11&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Windows 11&lt;/a&gt;&lt;br&gt;
@@ -87,54 +90,102 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;misc&#34;&gt;Misc
 &lt;/h2&gt;&lt;details&gt;  
-玩过的/正在玩的游戏  
+&lt;summary&gt;玩过的/正在玩的游戏&lt;/summary&gt;  
 &lt;p&gt;&lt;strong&gt;Chunithm&lt;/strong&gt;&lt;br&gt;
 Luminous&lt;br&gt;
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/rikkamisc/images/imgs/20240426222908.png&#34;
-	
-	
-	
+&lt;img src=&#34;https://rikka.im/about-me/Luminous.webp&#34;
+	width=&#34;630&#34;
+	height=&#34;295&#34;
+	srcset=&#34;https://rikka.im/about-me/Luminous_hu15590646706939259170.webp 480w, https://rikka.im/about-me/Luminous_hu10497335450762944602.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Luminous&#34;
 	
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;213&#34;
+		data-flex-basis=&#34;512px&#34;
+	
 &gt;&lt;br&gt;
 国服&lt;br&gt;
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/rikkamisc/images/imgs/qq_pic_merged_1714141819628.jpg&#34;
-	
-	
-	
+&lt;img src=&#34;https://rikka.im/about-me/Chunithm.webp&#34;
+	width=&#34;1220&#34;
+	height=&#34;631&#34;
+	srcset=&#34;https://rikka.im/about-me/Chunithm_hu18402062890084054155.webp 480w, https://rikka.im/about-me/Chunithm_hu16031022250330812984.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;国服&#34;
 	
 	
-&gt;&lt;br&gt;
-&lt;strong&gt;maimai DX&lt;/strong&gt;&lt;br&gt;
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;maimai DX&lt;/strong&gt;&lt;br&gt;
 国服&lt;br&gt;
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/rikkamisc/images/imgs/qq_pic_merged_1714141955154.jpg&#34;
-	
-	
-	
+&lt;img src=&#34;https://rikka.im/about-me/maimai.webp&#34;
+	width=&#34;1220&#34;
+	height=&#34;522&#34;
+	srcset=&#34;https://rikka.im/about-me/maimai_hu4812547477731798506.webp 480w, https://rikka.im/about-me/maimai_hu9842948435770448895.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;国服&#34;
 	
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;233&#34;
+		data-flex-basis=&#34;560px&#34;
+	
 &gt;&lt;br&gt;
-&lt;strong&gt;Phigros&lt;/strong&gt;&lt;br&gt;
-RKS: 14.98&lt;br&gt;
-&lt;strong&gt;Project Sekai&lt;/strong&gt;&lt;br&gt;
-台服 ID: 7141744334939904769&lt;br&gt;
-&lt;strong&gt;1999&lt;/strong&gt;&lt;br&gt;
-ID: 100970308&lt;br&gt;
-&lt;strong&gt;Minecraft&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Phigros&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;RKS: 14.98&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Project Sekai&lt;/strong&gt;&lt;br&gt;
+台服 ID: 7141744334939904769&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1999&lt;/strong&gt;&lt;br&gt;
+ID: 100970308&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Minecraft&lt;/strong&gt;&lt;br&gt;
 Java Edition: RikkaNaa&lt;br&gt;
-BakaXL: Rikkawa#5148&lt;br&gt;
-&lt;strong&gt;明日方舟&lt;/strong&gt;&lt;br&gt;
+BakaXL: Rikkawa#5148&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;明日方舟&lt;/strong&gt;&lt;br&gt;
 忘记了&lt;/p&gt;
 &lt;/details&gt;</description>
+        </item>
+        <item>
+        <title>归档</title>
+        <link>https://rikka.im/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://rikka.im/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>朋友们</title>
+        <link>https://rikka.im/friends/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://rikka.im/friends/</guid>
+        <description>&lt;h2 id=&#34;友链信息&#34;&gt;友链信息
+&lt;/h2&gt;&lt;p&gt;你好呀，要交换友链吗&lt;br&gt;
+以下是小窝的信息&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Title: Rikkaの小小窝&lt;/li&gt;
+&lt;li&gt;Name: Rikka&lt;/li&gt;
+&lt;li&gt;Link: &lt;a class=&#34;link&#34; href=&#34;https://rikka.im&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://rikka.im&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Avatar: &lt;a class=&#34;link&#34; href=&#34;https://rikka.im/avatar.webp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://rikka.im/avatar.webp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Desc: 早上好哦(つω`*)～☆&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://rikka.im/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://rikka.im/search/</guid>
+        <description></description>
         </item>
         
     </channel>

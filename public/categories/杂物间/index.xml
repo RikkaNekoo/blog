@@ -9,16 +9,15 @@
         <copyright>Rikka</copyright>
         <lastBuildDate>Sat, 04 May 2024 16:55:23 +0000</lastBuildDate><atom:link href="https://rikka.im/categories/%E6%9D%82%E7%89%A9%E9%97%B4/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>零刻SER5 MAX使用体验</title>
-        <link>https://rikka.im/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</link>
+        <link>https://rikka.im/post/beelink-ser5-max/</link>
         <pubDate>Sat, 04 May 2024 16:55:23 +0000</pubDate>
         
-        <guid>https://rikka.im/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</guid>
-        <description>&lt;h1 id=&#34;零刻ser5-max使用体验&#34;&gt;零刻SER5 MAX使用体验
-&lt;/h1&gt;&lt;h2 id=&#34;参数以及外观&#34;&gt;参数以及外观
+        <guid>https://rikka.im/post/beelink-ser5-max/</guid>
+        <description>&lt;img src="https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp" alt="Featured image of post 零刻SER5 MAX使用体验" /&gt;&lt;h2 id=&#34;参数以及外观&#34;&gt;参数以及外观
 &lt;/h2&gt;&lt;h3 id=&#34;外观&#34;&gt;外观
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.zhihu.com/tardis/bd/art/651914200&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;图片来源&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp?consumer=ZHI_MENG&#34;
+&lt;p&gt;&lt;img src=&#34;https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp&#34;
 	
 	
 	
@@ -28,7 +27,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic2.zhimg.com/v2-d2e7c3084966a9a5e65cc08c6884f3c9_b.webp?consumer=ZHI_MENG&#34;
+&lt;p&gt;&lt;img src=&#34;https://pic2.zhimg.com/v2-d2e7c3084966a9a5e65cc08c6884f3c9_b.webp&#34;
 	
 	
 	
@@ -42,9 +41,35 @@
 整机很轻便，要是口袋大点的甚至可以塞口袋里&lt;/p&gt;
 &lt;h3 id=&#34;参数&#34;&gt;参数
 &lt;/h3&gt;&lt;p&gt;I/O接口方面&lt;br&gt;
-前面板有CLR CMOS键一个、USB 3.2 Gen 1三个，其中Type-A两个，Type-C一个(支持DP视频输出，PD供电，但不支持反向供电)、||极为先进的||3.5mm TRRS一个、电源键兼状态指示灯一个&lt;br&gt;
-后置有1Gbps RJ45一个、USB 3.2 Gen 1 Type-A一个、USB 2.0 Type-A一个、DP一个，HDMI一个、19V DC-IN一个、还有我自己装的SFF-8612 (OCuLink)一个&lt;br&gt;
-在主机内部有SATA 3.0一个、PCIe 3.0 x4 M.2 2280一个、PCIe 2.0 x1 M.2 2230一个以及SO-DIMM DDR4两个&lt;/p&gt;
+前面板：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CLR CMOS键一个&lt;/li&gt;
+&lt;li&gt;USB 3.2 Gen 1三个
+&lt;ul&gt;
+&lt;li&gt;Type-A两个&lt;/li&gt;
+&lt;li&gt;Type-C一个(支持DP视频输出，PD供电，但不支持反向供电)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;极为先进的3.5mm TRRS一个&lt;/li&gt;
+&lt;li&gt;电源键兼状态指示灯一个&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;后置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1Gbps RJ45一个&lt;/li&gt;
+&lt;li&gt;USB 3.2 Gen 1 Type-A一个&lt;/li&gt;
+&lt;li&gt;USB 2.0 Type-A一个&lt;/li&gt;
+&lt;li&gt;DP一个&lt;/li&gt;
+&lt;li&gt;HDMI一个&lt;/li&gt;
+&lt;li&gt;19V DC-IN一个&lt;/li&gt;
+&lt;li&gt;我自己装的SFF-8612 (OCuLink)一个&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;主机内部：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SATA 3.0一个&lt;/li&gt;
+&lt;li&gt;PCIe 3.0 x4 M.2 2280一个&lt;/li&gt;
+&lt;li&gt;PCIe 2.0 x1 M.2 2230一个&lt;/li&gt;
+&lt;li&gt;SO-DIMM DDR4两个&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;详细配置如表&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -60,7 +85,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;GPU&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;AMD Radeon Vega 8 / NVIDIA Tesla M40&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;AMD Radeon Vega 8 &amp;amp; NVIDIA Tesla M40&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;RAM&lt;/td&gt;
@@ -92,7 +117,7 @@
 试了下用核显来打CHUNITHM LMN，窗口化遇到特效复杂的地方会掉帧挺严重，其他游戏待测试&lt;br&gt;
 BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDFormBrowser设置&lt;/p&gt;
 &lt;p&gt;风扇比较安静，没有负载的情况下放在身边睡觉都OK，不过满载噪音还是很大的（毕竟AMD祖传积热问题）&lt;/p&gt;
-&lt;p&gt;外接M40之后性能有了质的飞跃，改了温控之后声音表现也很棒了，完全可以开着过夜
+&lt;p&gt;外接M40之后性能有了质的飞跃，改了温控之后声音表现也很棒了，完全可以开着过夜&lt;br&gt;
 &lt;strong&gt;To do&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;总结&#34;&gt;总结
 &lt;/h2&gt;&lt;p&gt;整体的使用体验还是不错的，日常办公写文章写代码玩Gal完全够用 &lt;del&gt;(废话)&lt;/del&gt;&lt;br&gt;
@@ -101,12 +126,11 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
         </item>
         <item>
         <title>半报废的Surface Go2拯救计划</title>
-        <link>https://rikka.im/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</link>
+        <link>https://rikka.im/post/surface-go2-relife-project/</link>
         <pubDate>Fri, 12 Apr 2024 18:23:55 +0000</pubDate>
         
-        <guid>https://rikka.im/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</guid>
-        <description>&lt;h1 id=&#34;半报废的surface-go2拯救计划&#34;&gt;半报废的Surface Go2拯救计划
-&lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
+        <guid>https://rikka.im/post/surface-go2-relife-project/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;21年的时候一时起兴想买台Windows二合一平板，于是买了台Surface Go2，但是性能过于羸弱，而且发热十分严重，于是吃灰至今&lt;br&gt;
 目前的状态是键盘丢失，USB3.1无法识别，只能用2.0，属于是半报废的状态&lt;br&gt;
 而官方维修又属实贵的离谱 (2000+)，所以就研究一下能不能让她焕发新机&lt;/p&gt;

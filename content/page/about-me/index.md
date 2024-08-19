@@ -1,13 +1,19 @@
 ---
 date: 2024-01-07T02:29:24.830Z
 title: 关于我
+slug: about-me
+menu:
+    main:
+        weight: 5
+        params: 
+            icon: user
 ---
 
 # 关于我
 
 
 ## 一些信息
-你好，这里 Rikka，或者也可以叫我六花||、刘华、6flower||，以及常用名 RikkaNaa，RikkaNya  
+你好，这里Rikka，或者也可以叫我六花 ~~、刘华、6flower~~ ，以及常用名RikkaNaa，RikkaNya  
 关于这个名字，大概是几年前在看中二病的时候用的微信名，久而久之被朋友叫习惯了））  
 
 ## 关于我
@@ -16,7 +22,11 @@ title: 关于我
   
 爱好极其广泛，你或许在各种圈子都能见到我  
   
-ACG 爱好者  
+ACGN爱好者，成分超级复杂，基本以打音游居多，是百合爱好者  
+喜欢各种与计算机有关的东西  
+可能是一六年上下，我获得了人生中第一台电脑，于是便不可收拾的投入到计算机中，不过这么多年了似乎还是什么都不懂（笑  
+曾经混iOS越狱圈、Android刷机圈，当过Buildbot，学过一点点(真的只有一点点)Python和C++，拿过几个没用的奖项  
+现在在玩DN42以及折腾各种 ~~无意义~~ 的事物  
 
 ## 开发环境
 [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11)  
@@ -31,25 +41,31 @@ ACG 爱好者
 
 ## Misc
 <details>  
-玩过的/正在玩的游戏  
+<summary>玩过的/正在玩的游戏</summary>  
 
 **Chunithm**  
 Luminous  
-![Luminous](https://cdn.jsdelivr.net/gh/rikkamisc/images/imgs/20240426222908.png)   
+![Luminous](Luminous.webp)   
 国服  
-![国服](https://cdn.jsdelivr.net/gh/rikkamisc/images/imgs/qq_pic_merged_1714141819628.jpg)   
+![国服](Chunithm.webp)  
+
 **maimai DX**  
 国服  
-![国服](https://cdn.jsdelivr.net/gh/rikkamisc/images/imgs/qq_pic_merged_1714141955154.jpg)  
+![国服](maimai.webp)  
 **Phigros**  
+
 RKS: 14.98  
+
 **Project Sekai**  
 台服 ID: 7141744334939904769  
+
 **1999**  
 ID: 100970308  
+
 **Minecraft**  
 Java Edition: RikkaNaa  
 BakaXL: Rikkawa#5148  
+
 **明日方舟**  
 忘记了
 

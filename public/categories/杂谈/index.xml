@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>杂谈 on Rikkaの小小窝</title>
+        <link>https://rikka.im/categories/%E6%9D%82%E8%B0%88/</link>
+        <description>Recent content in 杂谈 on Rikkaの小小窝</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Rikka</copyright>
+        <lastBuildDate>Sun, 18 Aug 2024 20:23:08 +0800</lastBuildDate><atom:link href="https://rikka.im/categories/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>从Mix-Space迁移至Hugo</title>
+        <link>https://rikka.im/post/from-mix-space-to-hugo/</link>
+        <pubDate>Sun, 18 Aug 2024 20:23:08 +0800</pubDate>
+        
+        <guid>https://rikka.im/post/from-mix-space-to-hugo/</guid>
+        <description>&lt;h2 id=&#34;为什么&#34;&gt;为什么？
+&lt;/h2&gt;&lt;p&gt;起因是2024/8/18起床水TG群的时候突发奇想想把博客换成静态（&lt;br&gt;
+虽然原先在用的Mix-Space很好用，Shiro前端也很好看，但是占用毕竟还是太大了，速度也有点慢&lt;br&gt;
+于是便光速翻了一遍，最终敲定下来使用Hugo+Stack主题这一套方案&lt;/p&gt;
+&lt;h2 id=&#34;过程&#34;&gt;过程
+&lt;/h2&gt;&lt;p&gt;由于我是完完全全的前端废物，所以几乎全都是照葫芦画瓢&lt;br&gt;
+不过我并没有选择比较普遍的Github Pages/Vercel部署，反正手上有台年付的阿里云HK轻量，不用也是浪费了&lt;br&gt;
+&lt;del&gt;用服务器部署静态博客的我一定是有什么大病&lt;/del&gt;
+网页服务器用的是Caddy，配置简单不用管TLS还支持H/3&lt;br&gt;
+文章直接从Mix-Space后台下载md稍微改改front-matter就行了，不过笔记(类似于推文/朋友圈？)还不知道扔哪里比较好&lt;/p&gt;
+&lt;h2 id=&#34;最后&#34;&gt;最后
+&lt;/h2&gt;&lt;p&gt;又水了一篇文章啦&lt;br&gt;
+之后应该还会继续完善的，如果有空学了前端说不定还能爆改一番x&lt;/p&gt;
+&lt;h2 id=&#34;部署参考&#34;&gt;部署参考
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.linsnow.cn/p/join-hugo-and-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;带着Stack主题入坑Hugo&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.liuhouliang.com/post/hugo_theme/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;使用hugo stack主题快速搭建博客&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://vofficial233.com/archives/deploy-my-hugo-blog&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;使用Hugo部署博客以及Stack主题的美化&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stack官方文档&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo官方文档&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

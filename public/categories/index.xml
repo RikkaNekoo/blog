@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rikka</copyright>
-        <lastBuildDate>Fri, 31 May 2024 14:36:07 +0000</lastBuildDate><atom:link href="https://rikka.im/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 18 Aug 2024 20:23:08 +0800</lastBuildDate><atom:link href="https://rikka.im/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>杂谈</title>
+        <link>https://rikka.im/categories/%E6%9D%82%E8%B0%88/</link>
+        <pubDate>Sun, 18 Aug 2024 20:23:08 +0800</pubDate>
+        
+        <guid>https://rikka.im/categories/%E6%9D%82%E8%B0%88/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>开发</title>
         <link>https://rikka.im/categories/%E5%BC%80%E5%8F%91/</link>
         <pubDate>Fri, 31 May 2024 14:36:07 +0000</pubDate>

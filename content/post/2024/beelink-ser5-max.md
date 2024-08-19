@@ -1,40 +1,57 @@
 ---
 date: 2024-05-04T16:55:23.609Z
-updated: 2024-08-07T10:20:04.766Z
 title: 零刻SER5 MAX使用体验
+slug: beelink-ser5-max
+image: https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp
 categories: 杂物间
 tags:
-- Computer
-- 随笔
+    - Computer
+    - 随笔
 ---
-
-# 零刻SER5 MAX使用体验
-
 
 ## 参数以及外观
 
 ### 外观
 [图片来源](https://www.zhihu.com/tardis/bd/art/651914200)  
 
-![正面](https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp?consumer=ZHI_MENG)
+![正面](https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp)
 
-![背面](https://pic2.zhimg.com/v2-d2e7c3084966a9a5e65cc08c6884f3c9_b.webp?consumer=ZHI_MENG)
+![背面](https://pic2.zhimg.com/v2-d2e7c3084966a9a5e65cc08c6884f3c9_b.webp)
 
 根据官方提供的参数，主机的尺寸为 126x113x42mm  
 整机很轻便，要是口袋大点的甚至可以塞口袋里  
 
 ### 参数
 I/O接口方面  
-前面板有CLR CMOS键一个、USB 3.2 Gen 1三个，其中Type-A两个，Type-C一个(支持DP视频输出，PD供电，但不支持反向供电)、||极为先进的||3.5mm TRRS一个、电源键兼状态指示灯一个  
-后置有1Gbps RJ45一个、USB 3.2 Gen 1 Type-A一个、USB 2.0 Type-A一个、DP一个，HDMI一个、19V DC-IN一个、还有我自己装的SFF-8612 (OCuLink)一个  
-在主机内部有SATA 3.0一个、PCIe 3.0 x4 M.2 2280一个、PCIe 2.0 x1 M.2 2230一个以及SO-DIMM DDR4两个
+前面板：
+- CLR CMOS键一个
+- USB 3.2 Gen 1三个
+    - Type-A两个
+    - Type-C一个(支持DP视频输出，PD供电，但不支持反向供电)
+- 极为先进的3.5mm TRRS一个
+- 电源键兼状态指示灯一个  
+
+后置：
+- 1Gbps RJ45一个
+- USB 3.2 Gen 1 Type-A一个
+- USB 2.0 Type-A一个
+- DP一个
+- HDMI一个
+- 19V DC-IN一个
+- 我自己装的SFF-8612 (OCuLink)一个  
+
+主机内部：
+- SATA 3.0一个
+- PCIe 3.0 x4 M.2 2280一个
+- PCIe 2.0 x1 M.2 2230一个
+- SO-DIMM DDR4两个
 
 详细配置如表  
 
 硬件 | 型号
 :----- | :-----
 CPU | AMD Ryzen 7 5800H
-GPU | AMD Radeon Vega 8 / NVIDIA Tesla M40
+GPU | AMD Radeon Vega 8 & NVIDIA Tesla M40
 RAM | Gloway DDR4-2666 16G
 硬盘 | Zhitai SC001 Active 1T
 声卡 | Realtek ALC897
@@ -52,7 +69,7 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
   
 风扇比较安静，没有负载的情况下放在身边睡觉都OK，不过满载噪音还是很大的（毕竟AMD祖传积热问题） 
 
-外接M40之后性能有了质的飞跃，改了温控之后声音表现也很棒了，完全可以开着过夜
+外接M40之后性能有了质的飞跃，改了温控之后声音表现也很棒了，完全可以开着过夜  
 **To do...**
 
 ## 总结

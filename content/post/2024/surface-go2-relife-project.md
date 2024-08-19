@@ -1,15 +1,12 @@
 ---
 date: 2024-04-12T18:23:55.201Z
-updated: 2024-08-02T16:58:28.220Z
 title: 半报废的Surface Go2拯救计划
+slug: surface-go2-relife-project
 categories: 杂物间
 tags: 
-- Computer
-- 随笔
+    - Computer
+    - 随笔
 ---
-
-# 半报废的Surface Go2拯救计划
-
 
 ## 前言
 21年的时候一时起兴想买台Windows二合一平板，于是买了台Surface Go2，但是性能过于羸弱，而且发热十分严重，于是吃灰至今  

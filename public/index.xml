@@ -7,25 +7,60 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rikka</copyright>
-        <lastBuildDate>Fri, 31 May 2024 14:36:07 +0000</lastBuildDate><atom:link href="https://rikka.im/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 18 Aug 2024 20:23:08 +0800</lastBuildDate><atom:link href="https://rikka.im/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>从Mix-Space迁移至Hugo</title>
+        <link>https://rikka.im/post/from-mix-space-to-hugo/</link>
+        <pubDate>Sun, 18 Aug 2024 20:23:08 +0800</pubDate>
+        
+        <guid>https://rikka.im/post/from-mix-space-to-hugo/</guid>
+        <description>&lt;h2 id=&#34;为什么&#34;&gt;为什么？
+&lt;/h2&gt;&lt;p&gt;起因是2024/8/18起床水TG群的时候突发奇想想把博客换成静态（&lt;br&gt;
+虽然原先在用的Mix-Space很好用，Shiro前端也很好看，但是占用毕竟还是太大了，速度也有点慢&lt;br&gt;
+于是便光速翻了一遍，最终敲定下来使用Hugo+Stack主题这一套方案&lt;/p&gt;
+&lt;h2 id=&#34;过程&#34;&gt;过程
+&lt;/h2&gt;&lt;p&gt;由于我是完完全全的前端废物，所以几乎全都是照葫芦画瓢&lt;br&gt;
+不过我并没有选择比较普遍的Github Pages/Vercel部署，反正手上有台年付的阿里云HK轻量，不用也是浪费了&lt;br&gt;
+&lt;del&gt;用服务器部署静态博客的我一定是有什么大病&lt;/del&gt;
+网页服务器用的是Caddy，配置简单不用管TLS还支持H/3&lt;br&gt;
+文章直接从Mix-Space后台下载md稍微改改front-matter就行了，不过笔记(类似于推文/朋友圈？)还不知道扔哪里比较好&lt;/p&gt;
+&lt;h2 id=&#34;最后&#34;&gt;最后
+&lt;/h2&gt;&lt;p&gt;又水了一篇文章啦&lt;br&gt;
+之后应该还会继续完善的，如果有空学了前端说不定还能爆改一番x&lt;/p&gt;
+&lt;h2 id=&#34;部署参考&#34;&gt;部署参考
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.linsnow.cn/p/join-hugo-and-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;带着Stack主题入坑Hugo&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.liuhouliang.com/post/hugo_theme/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;使用hugo stack主题快速搭建博客&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://vofficial233.com/archives/deploy-my-hugo-blog&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;使用Hugo部署博客以及Stack主题的美化&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stack官方文档&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo官方文档&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Tesla M40 上手体验</title>
-        <link>https://rikka.im/post/tesla-m40-%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</link>
+        <link>https://rikka.im/post/tesla-m40/</link>
         <pubDate>Fri, 31 May 2024 14:36:07 +0000</pubDate>
         
-        <guid>https://rikka.im/post/tesla-m40-%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</guid>
-        <description>&lt;h1 id=&#34;tesla-m40-上手体验&#34;&gt;Tesla M40 上手体验
-&lt;/h1&gt;&lt;h2 id=&#34;关于&#34;&gt;关于
+        <guid>https://rikka.im/post/tesla-m40/</guid>
+        <description>&lt;h2 id=&#34;关于&#34;&gt;关于
 &lt;/h2&gt;&lt;p&gt;买了台零刻SER5 MAX，对Vega 7羸弱的性能实在是难以忍受&lt;br&gt;
 但是又想要便携性不损失，于是便选择了用NVMe转SFF-8612 (OCuLink)，要带走电脑的话直接把线拔了就行了&lt;br&gt;
 使用的是开源宇宙的EG01，有个架子还是美观点的&lt;br&gt;
 显卡选择Tesla M40的最大原因其实是没钱（x&lt;br&gt;
 性能还OK，显存也大，重点是还便宜&lt;br&gt;
-&lt;img src=&#34;https://rikka.im/api/v2/objects/file/osvmoq42gyt3mrjgsb.png&#34;
-	
-	
-	
+&lt;img src=&#34;https://rikka.im/post/tesla-m40/nvidia-smi.webp&#34;
+	width=&#34;923&#34;
+	height=&#34;400&#34;
+	srcset=&#34;https://rikka.im/post/tesla-m40/nvidia-smi_hu12665379627296848279.webp 480w, https://rikka.im/post/tesla-m40/nvidia-smi_hu3064919184147781397.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;230&#34;
+		data-flex-basis=&#34;553px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;折腾过程&#34;&gt;折腾过程
@@ -65,8 +100,15 @@ Linux下就更简单了，装好闭源驱动就能直接就能用于图形渲染
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;性能跑分&#34;&gt;性能&amp;amp;跑分
-&lt;/h2&gt;&lt;p&gt;地平线4: 在Linux下预设高，1080P全程60帧但会有不频发的小卡顿，2K下可以跑55-60帧，小卡顿较为频发但不太影响游戏&lt;br&gt;
-To do&lt;/p&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;地平线4:
+&lt;ul&gt;
+&lt;li&gt;在Linux下预设高，1080P全程60帧但会有不频发的小卡顿，2K下可以跑55-60帧，小卡顿较为频发但不太影响游戏&lt;/li&gt;
+&lt;li&gt;在Windows下预设高，2K除了在地平线全程60帧&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;To do&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;使用体验&#34;&gt;使用体验
 &lt;/h2&gt;&lt;p&gt;显卡坞可以随机启停，这点很棒，不用一直按来按去开关了&lt;br&gt;
 风扇是EVGA的980Ti的，改装了温控，不打游戏时很安静，打游戏也不会很吵&lt;br&gt;
@@ -75,16 +117,15 @@ To do&lt;/p&gt;
         </item>
         <item>
         <title>零刻SER5 MAX使用体验</title>
-        <link>https://rikka.im/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</link>
+        <link>https://rikka.im/post/beelink-ser5-max/</link>
         <pubDate>Sat, 04 May 2024 16:55:23 +0000</pubDate>
         
-        <guid>https://rikka.im/post/%E9%9B%B6%E5%88%BBser5-max%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</guid>
-        <description>&lt;h1 id=&#34;零刻ser5-max使用体验&#34;&gt;零刻SER5 MAX使用体验
-&lt;/h1&gt;&lt;h2 id=&#34;参数以及外观&#34;&gt;参数以及外观
+        <guid>https://rikka.im/post/beelink-ser5-max/</guid>
+        <description>&lt;img src="https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp" alt="Featured image of post 零刻SER5 MAX使用体验" /&gt;&lt;h2 id=&#34;参数以及外观&#34;&gt;参数以及外观
 &lt;/h2&gt;&lt;h3 id=&#34;外观&#34;&gt;外观
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.zhihu.com/tardis/bd/art/651914200&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;图片来源&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp?consumer=ZHI_MENG&#34;
+&lt;p&gt;&lt;img src=&#34;https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp&#34;
 	
 	
 	
@@ -94,7 +135,7 @@ To do&lt;/p&gt;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic2.zhimg.com/v2-d2e7c3084966a9a5e65cc08c6884f3c9_b.webp?consumer=ZHI_MENG&#34;
+&lt;p&gt;&lt;img src=&#34;https://pic2.zhimg.com/v2-d2e7c3084966a9a5e65cc08c6884f3c9_b.webp&#34;
 	
 	
 	
@@ -108,9 +149,35 @@ To do&lt;/p&gt;
 整机很轻便，要是口袋大点的甚至可以塞口袋里&lt;/p&gt;
 &lt;h3 id=&#34;参数&#34;&gt;参数
 &lt;/h3&gt;&lt;p&gt;I/O接口方面&lt;br&gt;
-前面板有CLR CMOS键一个、USB 3.2 Gen 1三个，其中Type-A两个，Type-C一个(支持DP视频输出，PD供电，但不支持反向供电)、||极为先进的||3.5mm TRRS一个、电源键兼状态指示灯一个&lt;br&gt;
-后置有1Gbps RJ45一个、USB 3.2 Gen 1 Type-A一个、USB 2.0 Type-A一个、DP一个，HDMI一个、19V DC-IN一个、还有我自己装的SFF-8612 (OCuLink)一个&lt;br&gt;
-在主机内部有SATA 3.0一个、PCIe 3.0 x4 M.2 2280一个、PCIe 2.0 x1 M.2 2230一个以及SO-DIMM DDR4两个&lt;/p&gt;
+前面板：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CLR CMOS键一个&lt;/li&gt;
+&lt;li&gt;USB 3.2 Gen 1三个
+&lt;ul&gt;
+&lt;li&gt;Type-A两个&lt;/li&gt;
+&lt;li&gt;Type-C一个(支持DP视频输出，PD供电，但不支持反向供电)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;极为先进的3.5mm TRRS一个&lt;/li&gt;
+&lt;li&gt;电源键兼状态指示灯一个&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;后置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1Gbps RJ45一个&lt;/li&gt;
+&lt;li&gt;USB 3.2 Gen 1 Type-A一个&lt;/li&gt;
+&lt;li&gt;USB 2.0 Type-A一个&lt;/li&gt;
+&lt;li&gt;DP一个&lt;/li&gt;
+&lt;li&gt;HDMI一个&lt;/li&gt;
+&lt;li&gt;19V DC-IN一个&lt;/li&gt;
+&lt;li&gt;我自己装的SFF-8612 (OCuLink)一个&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;主机内部：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SATA 3.0一个&lt;/li&gt;
+&lt;li&gt;PCIe 3.0 x4 M.2 2280一个&lt;/li&gt;
+&lt;li&gt;PCIe 2.0 x1 M.2 2230一个&lt;/li&gt;
+&lt;li&gt;SO-DIMM DDR4两个&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;详细配置如表&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -126,7 +193,7 @@ To do&lt;/p&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;GPU&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;AMD Radeon Vega 8 / NVIDIA Tesla M40&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;AMD Radeon Vega 8 &amp;amp; NVIDIA Tesla M40&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;RAM&lt;/td&gt;
@@ -158,7 +225,7 @@ To do&lt;/p&gt;
 试了下用核显来打CHUNITHM LMN，窗口化遇到特效复杂的地方会掉帧挺严重，其他游戏待测试&lt;br&gt;
 BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDFormBrowser设置&lt;/p&gt;
 &lt;p&gt;风扇比较安静，没有负载的情况下放在身边睡觉都OK，不过满载噪音还是很大的（毕竟AMD祖传积热问题）&lt;/p&gt;
-&lt;p&gt;外接M40之后性能有了质的飞跃，改了温控之后声音表现也很棒了，完全可以开着过夜
+&lt;p&gt;外接M40之后性能有了质的飞跃，改了温控之后声音表现也很棒了，完全可以开着过夜&lt;br&gt;
 &lt;strong&gt;To do&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;总结&#34;&gt;总结
 &lt;/h2&gt;&lt;p&gt;整体的使用体验还是不错的，日常办公写文章写代码玩Gal完全够用 &lt;del&gt;(废话)&lt;/del&gt;&lt;br&gt;
@@ -167,12 +234,11 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
         </item>
         <item>
         <title>半报废的Surface Go2拯救计划</title>
-        <link>https://rikka.im/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</link>
+        <link>https://rikka.im/post/surface-go2-relife-project/</link>
         <pubDate>Fri, 12 Apr 2024 18:23:55 +0000</pubDate>
         
-        <guid>https://rikka.im/post/%E5%8D%8A%E6%8A%A5%E5%BA%9F%E7%9A%84surface-go2%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92/</guid>
-        <description>&lt;h1 id=&#34;半报废的surface-go2拯救计划&#34;&gt;半报废的Surface Go2拯救计划
-&lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
+        <guid>https://rikka.im/post/surface-go2-relife-project/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;21年的时候一时起兴想买台Windows二合一平板，于是买了台Surface Go2，但是性能过于羸弱，而且发热十分严重，于是吃灰至今&lt;br&gt;
 目前的状态是键盘丢失，USB3.1无法识别，只能用2.0，属于是半报废的状态&lt;br&gt;
 而官方维修又属实贵的离谱 (2000+)，所以就研究一下能不能让她焕发新机&lt;/p&gt;
@@ -250,12 +316,11 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
 &lt;ol&gt;
 &lt;li&gt;ASN&lt;/li&gt;
 &lt;li&gt;公网 IP&lt;/li&gt;
-&lt;li&gt;DN42 IPv4 &amp;amp; IPv6&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;DN42 IPv4 &amp;amp; IPv6
 &lt;ul&gt;
 &lt;li&gt;我倾向于使用 IPv6 Link-local Peer&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol start=&#34;4&#34;&gt;
+&lt;/li&gt;
 &lt;li&gt;需要 Peer 的服务器&lt;/li&gt;
 &lt;li&gt;WireGuard 公钥&lt;/li&gt;
 &lt;/ol&gt;
@@ -265,12 +330,11 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
         </item>
         <item>
         <title>Artemis反向代理配置参考</title>
-        <link>https://rikka.im/post/artemis%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83/</link>
+        <link>https://rikka.im/post/artemis-prod/</link>
         <pubDate>Sat, 20 Jan 2024 13:31:12 +0000</pubDate>
         
-        <guid>https://rikka.im/post/artemis%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83/</guid>
-        <description>&lt;h1 id=&#34;artemis反向代理配置参考&#34;&gt;Artemis反向代理配置参考
-&lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
+        <guid>https://rikka.im/post/artemis-prod/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;如果你想要将 Artemis 放在服务器上使用的话，那应该很需要反向代理&lt;br&gt;
 毕竟你也不想为了它而牺牲服务器的 80/443 端口吧&lt;/p&gt;
 &lt;h2 id=&#34;需要的东西&#34;&gt;需要的东西
@@ -315,7 +379,7 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;完整的配置文件如下&lt;/p&gt;
 &lt;details&gt;
-core.yaml
+&lt;summary&gt;core.yaml&lt;/summary&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -658,18 +722,22 @@ core.yaml
         </item>
         <item>
         <title>关于我</title>
-        <link>https://rikka.im/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
+        <link>https://rikka.im/about-me/</link>
         <pubDate>Sun, 07 Jan 2024 02:29:24 +0000</pubDate>
         
-        <guid>https://rikka.im/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
+        <guid>https://rikka.im/about-me/</guid>
         <description>&lt;h1 id=&#34;关于我&#34;&gt;关于我
 &lt;/h1&gt;&lt;h2 id=&#34;一些信息&#34;&gt;一些信息
-&lt;/h2&gt;&lt;p&gt;你好，这里 Rikka，或者也可以叫我六花||、刘华、6flower||，以及常用名 RikkaNaa，RikkaNya&lt;br&gt;
+&lt;/h2&gt;&lt;p&gt;你好，这里Rikka，或者也可以叫我六花 &lt;del&gt;、刘华、6flower&lt;/del&gt; ，以及常用名RikkaNaa，RikkaNya&lt;br&gt;
 关于这个名字，大概是几年前在看中二病的时候用的微信名，久而久之被朋友叫习惯了））&lt;/p&gt;
 &lt;h2 id=&#34;关于我-1&#34;&gt;关于我
 &lt;/h2&gt;&lt;p&gt;很高兴认识你！&lt;/p&gt;
 &lt;p&gt;爱好极其广泛，你或许在各种圈子都能见到我&lt;/p&gt;
-&lt;p&gt;ACG 爱好者&lt;/p&gt;
+&lt;p&gt;ACGN爱好者，成分超级复杂，基本以打音游居多，是百合爱好者&lt;br&gt;
+喜欢各种与计算机有关的东西&lt;br&gt;
+可能是一六年上下，我获得了人生中第一台电脑，于是便不可收拾的投入到计算机中，不过这么多年了似乎还是什么都不懂（笑&lt;br&gt;
+曾经混iOS越狱圈、Android刷机圈，当过Buildbot，学过一点点(真的只有一点点)Python和C++，拿过几个没用的奖项&lt;br&gt;
+现在在玩DN42以及折腾各种 &lt;del&gt;无意义&lt;/del&gt; 的事物&lt;/p&gt;
 &lt;h2 id=&#34;开发环境&#34;&gt;开发环境
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/zh-cn/software-download/windows11&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Windows 11&lt;/a&gt;&lt;br&gt;
@@ -687,63 +755,74 @@ core.yaml
 &lt;/ul&gt;
 &lt;h2 id=&#34;misc&#34;&gt;Misc
 &lt;/h2&gt;&lt;details&gt;  
-玩过的/正在玩的游戏  
+&lt;summary&gt;玩过的/正在玩的游戏&lt;/summary&gt;  
 &lt;p&gt;&lt;strong&gt;Chunithm&lt;/strong&gt;&lt;br&gt;
 Luminous&lt;br&gt;
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/rikkamisc/images/imgs/20240426222908.png&#34;
-	
-	
-	
+&lt;img src=&#34;https://rikka.im/about-me/Luminous.webp&#34;
+	width=&#34;630&#34;
+	height=&#34;295&#34;
+	srcset=&#34;https://rikka.im/about-me/Luminous_hu15590646706939259170.webp 480w, https://rikka.im/about-me/Luminous_hu10497335450762944602.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Luminous&#34;
 	
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;213&#34;
+		data-flex-basis=&#34;512px&#34;
+	
 &gt;&lt;br&gt;
 国服&lt;br&gt;
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/rikkamisc/images/imgs/qq_pic_merged_1714141819628.jpg&#34;
-	
-	
-	
+&lt;img src=&#34;https://rikka.im/about-me/Chunithm.webp&#34;
+	width=&#34;1220&#34;
+	height=&#34;631&#34;
+	srcset=&#34;https://rikka.im/about-me/Chunithm_hu18402062890084054155.webp 480w, https://rikka.im/about-me/Chunithm_hu16031022250330812984.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;国服&#34;
 	
 	
-&gt;&lt;br&gt;
-&lt;strong&gt;maimai DX&lt;/strong&gt;&lt;br&gt;
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;maimai DX&lt;/strong&gt;&lt;br&gt;
 国服&lt;br&gt;
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/rikkamisc/images/imgs/qq_pic_merged_1714141955154.jpg&#34;
-	
-	
-	
+&lt;img src=&#34;https://rikka.im/about-me/maimai.webp&#34;
+	width=&#34;1220&#34;
+	height=&#34;522&#34;
+	srcset=&#34;https://rikka.im/about-me/maimai_hu4812547477731798506.webp 480w, https://rikka.im/about-me/maimai_hu9842948435770448895.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;国服&#34;
 	
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;233&#34;
+		data-flex-basis=&#34;560px&#34;
+	
 &gt;&lt;br&gt;
-&lt;strong&gt;Phigros&lt;/strong&gt;&lt;br&gt;
-RKS: 14.98&lt;br&gt;
-&lt;strong&gt;Project Sekai&lt;/strong&gt;&lt;br&gt;
-台服 ID: 7141744334939904769&lt;br&gt;
-&lt;strong&gt;1999&lt;/strong&gt;&lt;br&gt;
-ID: 100970308&lt;br&gt;
-&lt;strong&gt;Minecraft&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Phigros&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;RKS: 14.98&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Project Sekai&lt;/strong&gt;&lt;br&gt;
+台服 ID: 7141744334939904769&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1999&lt;/strong&gt;&lt;br&gt;
+ID: 100970308&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Minecraft&lt;/strong&gt;&lt;br&gt;
 Java Edition: RikkaNaa&lt;br&gt;
-BakaXL: Rikkawa#5148&lt;br&gt;
-&lt;strong&gt;明日方舟&lt;/strong&gt;&lt;br&gt;
+BakaXL: Rikkawa#5148&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;明日方舟&lt;/strong&gt;&lt;br&gt;
 忘记了&lt;/p&gt;
 &lt;/details&gt;</description>
         </item>
         <item>
         <title>Artemis不完全食用指南</title>
-        <link>https://rikka.im/post/artemis%E4%B8%8D%E5%AE%8C%E5%85%A8%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+        <link>https://rikka.im/post/artemis-manual/</link>
         <pubDate>Sun, 07 Jan 2024 01:35:33 +0000</pubDate>
         
-        <guid>https://rikka.im/post/artemis%E4%B8%8D%E5%AE%8C%E5%85%A8%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
-        <description>&lt;h1 id=&#34;artemis不完全食用指南&#34;&gt;Artemis不完全食用指南
-&lt;/h1&gt;&lt;h2 id=&#34;介绍&#34;&gt;介绍
+        <guid>https://rikka.im/post/artemis-manual/</guid>
+        <description>&lt;h2 id=&#34;介绍&#34;&gt;介绍
 &lt;/h2&gt;&lt;p&gt;Artemis 没什么好介绍的了吧，给 SEGA 系 HDD 用的本地服，算是 Aqua 的继承者？&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A network service emulator for games running SEGA&amp;rsquo;S ALL.NET service, and similar.&lt;/p&gt;
@@ -850,14 +929,18 @@ BakaXL: Rikkawa#5148&lt;br&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;启动试试吧，如果一切正常，你将会看到会看到类似&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://rikka.im/api/v2/objects/icon/36rqdb58j04da8qrr3.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://rikka.im/post/artemis-manual/artemis.webp&#34;
+	width=&#34;933&#34;
+	height=&#34;143&#34;
+	srcset=&#34;https://rikka.im/post/artemis-manual/artemis_hu14489174471887564318.webp 480w, https://rikka.im/post/artemis-manual/artemis_hu12232662188461304551.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;! Artemis&#34;
+		alt=&#34;Artemis&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;652&#34;
+		data-flex-basis=&#34;1565px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;的输出&lt;/p&gt;
@@ -931,6 +1014,42 @@ BakaXL: Rikkawa#5148&lt;br&gt;
 &lt;li&gt;请不要使用&lt;strong&gt;中文&lt;/strong&gt;目录&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+        </item>
+        <item>
+        <title>归档</title>
+        <link>https://rikka.im/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://rikka.im/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>朋友们</title>
+        <link>https://rikka.im/friends/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://rikka.im/friends/</guid>
+        <description>&lt;h2 id=&#34;友链信息&#34;&gt;友链信息
+&lt;/h2&gt;&lt;p&gt;你好呀，要交换友链吗&lt;br&gt;
+以下是小窝的信息&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Title: Rikkaの小小窝&lt;/li&gt;
+&lt;li&gt;Name: Rikka&lt;/li&gt;
+&lt;li&gt;Link: &lt;a class=&#34;link&#34; href=&#34;https://rikka.im&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://rikka.im&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Avatar: &lt;a class=&#34;link&#34; href=&#34;https://rikka.im/avatar.webp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://rikka.im/avatar.webp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Desc: 早上好哦(つω`*)～☆&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://rikka.im/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://rikka.im/search/</guid>
+        <description></description>
         </item>
         
     </channel>

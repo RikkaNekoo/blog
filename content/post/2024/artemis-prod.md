@@ -1,17 +1,14 @@
 ---
 date: 2024-01-20T13:31:12.271Z
-updated: 2024-07-09T05:17:42.578Z
 title: Artemis反向代理配置参考
+slug: artemis-prod
 categories: 开发
 tags:
-- Software
-- Dev
-- 音游
-- 教程
+  - Software
+  - Dev
+  - 音游
+  - 教程
 ---
-
-# Artemis反向代理配置参考
-
 
 ## 前言
 如果你想要将 Artemis 放在服务器上使用的话，那应该很需要反向代理  
@@ -44,7 +41,7 @@ aimedb:
 完整的配置文件如下  
 
 <details>
-core.yaml
+<summary>core.yaml</summary>
 
 ```yaml
 server:

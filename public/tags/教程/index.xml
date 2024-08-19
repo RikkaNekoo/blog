@@ -9,12 +9,11 @@
         <copyright>Rikka</copyright>
         <lastBuildDate>Sat, 20 Jan 2024 13:31:12 +0000</lastBuildDate><atom:link href="https://rikka.im/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Artemis反向代理配置参考</title>
-        <link>https://rikka.im/post/artemis%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83/</link>
+        <link>https://rikka.im/post/artemis-prod/</link>
         <pubDate>Sat, 20 Jan 2024 13:31:12 +0000</pubDate>
         
-        <guid>https://rikka.im/post/artemis%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83/</guid>
-        <description>&lt;h1 id=&#34;artemis反向代理配置参考&#34;&gt;Artemis反向代理配置参考
-&lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
+        <guid>https://rikka.im/post/artemis-prod/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;如果你想要将 Artemis 放在服务器上使用的话，那应该很需要反向代理&lt;br&gt;
 毕竟你也不想为了它而牺牲服务器的 80/443 端口吧&lt;/p&gt;
 &lt;h2 id=&#34;需要的东西&#34;&gt;需要的东西
@@ -59,7 +58,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;完整的配置文件如下&lt;/p&gt;
 &lt;details&gt;
-core.yaml
+&lt;summary&gt;core.yaml&lt;/summary&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -402,12 +401,11 @@ core.yaml
         </item>
         <item>
         <title>Artemis不完全食用指南</title>
-        <link>https://rikka.im/post/artemis%E4%B8%8D%E5%AE%8C%E5%85%A8%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+        <link>https://rikka.im/post/artemis-manual/</link>
         <pubDate>Sun, 07 Jan 2024 01:35:33 +0000</pubDate>
         
-        <guid>https://rikka.im/post/artemis%E4%B8%8D%E5%AE%8C%E5%85%A8%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
-        <description>&lt;h1 id=&#34;artemis不完全食用指南&#34;&gt;Artemis不完全食用指南
-&lt;/h1&gt;&lt;h2 id=&#34;介绍&#34;&gt;介绍
+        <guid>https://rikka.im/post/artemis-manual/</guid>
+        <description>&lt;h2 id=&#34;介绍&#34;&gt;介绍
 &lt;/h2&gt;&lt;p&gt;Artemis 没什么好介绍的了吧，给 SEGA 系 HDD 用的本地服，算是 Aqua 的继承者？&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A network service emulator for games running SEGA&amp;rsquo;S ALL.NET service, and similar.&lt;/p&gt;
@@ -514,14 +512,18 @@ core.yaml
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;启动试试吧，如果一切正常，你将会看到会看到类似&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://rikka.im/api/v2/objects/icon/36rqdb58j04da8qrr3.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://rikka.im/post/artemis-manual/artemis.webp&#34;
+	width=&#34;933&#34;
+	height=&#34;143&#34;
+	srcset=&#34;https://rikka.im/post/artemis-manual/artemis_hu14489174471887564318.webp 480w, https://rikka.im/post/artemis-manual/artemis_hu12232662188461304551.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;! Artemis&#34;
+		alt=&#34;Artemis&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;652&#34;
+		data-flex-basis=&#34;1565px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;的输出&lt;/p&gt;
