@@ -1,6 +1,6 @@
 ---
 date: 2024-01-20T13:31:12.271Z
-title: Artemis反向代理配置参考
+title: Artemis 反向代理配置参考
 slug: artemis-prod
 categories: 开发
 tags:
@@ -121,10 +121,8 @@ mucha:
 
 ### ALL.Net
 
-::: warning
-请使用 **naominet.jp** 作为 server_name  
+请务必使用 **naominet.jp** 作为 server_name  
 否则网络自检将会 NG
-:::
 
 ```nginx
 server {
@@ -152,7 +150,7 @@ server {
   }
 }
 
-#如果无需SSL Title可删除下面这段
+#如果无需 SSL Title 可删除下面这段
 server {
   listen 443 ssl;
   server_name aime.example.com;
@@ -197,7 +195,7 @@ server {
 ```
 
 ## Caddy 配置
-参考Nginx配置写的  
+参考 Nginx 写的  
 ~~还没测试过，按理来说应该能跑起来~~  
 
 ```caddyfile

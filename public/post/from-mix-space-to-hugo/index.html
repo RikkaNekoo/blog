@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="为什么？ 起因是2024/8/18起床水TG群的时候突发奇想想把博客换成静态（ 虽然原先在用的Mix-Space很好用，Shiro前端也很好看，">
-<title>从Mix-Space迁移至Hugo</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="为什么？ 起因是 2024/8/18 起床水 TG 群的时候突发奇想想把博客换成静态（ 虽然原先在用的 Mix-Space 很好用，Shiro 前端也很好看，但是占用毕竟还是太大了，速度也有点">
+<title>从 Mix-Space 迁移至 Hugo</title>
 
 <link rel='canonical' href='https://rikka.im/post/from-mix-space-to-hugo/'>
 
-<link rel="stylesheet" href="/scss/style.min.0b2aba3282870643ad43ccdfd0bc80e0b95bfa067b49a73451bfa27353ed0d9a.css"><meta property='og:title' content="从Mix-Space迁移至Hugo">
-<meta property='og:description' content="为什么？ 起因是2024/8/18起床水TG群的时候突发奇想想把博客换成静态（ 虽然原先在用的Mix-Space很好用，Shiro前端也很好看，">
+<link rel="stylesheet" href="/scss/style.min.0b2aba3282870643ad43ccdfd0bc80e0b95bfa067b49a73451bfa27353ed0d9a.css"><meta property='og:title' content="从 Mix-Space 迁移至 Hugo">
+<meta property='og:description' content="为什么？ 起因是 2024/8/18 起床水 TG 群的时候突发奇想想把博客换成静态（ 虽然原先在用的 Mix-Space 很好用，Shiro 前端也很好看，但是占用毕竟还是太大了，速度也有点">
 <meta property='og:url' content='https://rikka.im/post/from-mix-space-to-hugo/'>
 <meta property='og:site_name' content='Rikkaの小小窝'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Software' /><meta property='article:published_time' content='2024-08-18T20:23:08&#43;08:00'/><meta property='article:modified_time' content='2024-08-18T20:23:08&#43;08:00'/>
-<meta name="twitter:title" content="从Mix-Space迁移至Hugo">
-<meta name="twitter:description" content="为什么？ 起因是2024/8/18起床水TG群的时候突发奇想想把博客换成静态（ 虽然原先在用的Mix-Space很好用，Shiro前端也很好看，">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Software' /><meta property='article:tag' content='随笔' /><meta property='article:published_time' content='2024-08-18T20:23:08&#43;08:00'/><meta property='article:modified_time' content='2024-08-18T20:23:08&#43;08:00'/>
+<meta name="twitter:title" content="从 Mix-Space 迁移至 Hugo">
+<meta name="twitter:description" content="为什么？ 起因是 2024/8/18 起床水 TG 群的时候突发奇想想把博客换成静态（ 虽然原先在用的 Mix-Space 很好用，Shiro 前端也很好看，但是占用毕竟还是太大了，速度也有点">
     <link rel="shortcut icon" href="/favicon.ico" />
 
   
 
+
+<script src="/zoom/jquery.min.js"></script>
+<link rel="stylesheet" href="/zoom/jquery.fancybox.min.css" />
+<script src="/zoom/jquery.fancybox.min.js"></script>
 
     </head>
     <body class="
@@ -379,7 +383,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/from-mix-space-to-hugo/">从Mix-Space迁移至Hugo</a>
+            <a href="/post/from-mix-space-to-hugo/">从 Mix-Space 迁移至 Hugo</a>
         </h2>
     
         
@@ -432,15 +436,15 @@
     
     
     <h2 id="为什么">为什么？
-</h2><p>起因是2024/8/18起床水TG群的时候突发奇想想把博客换成静态（<br>
-虽然原先在用的Mix-Space很好用，Shiro前端也很好看，但是占用毕竟还是太大了，速度也有点慢<br>
-于是便光速翻了一遍，最终敲定下来使用Hugo+Stack主题这一套方案</p>
+</h2><p>起因是 2024/8/18 起床水 TG 群的时候突发奇想想把博客换成静态（<br>
+虽然原先在用的 Mix-Space 很好用，Shiro 前端也很好看，但是占用毕竟还是太大了，速度也有点慢<br>
+于是便光速翻了一遍，最终敲定下来使用 Hugo+Stack 主题这一套方案</p>
 <h2 id="过程">过程
 </h2><p>由于我是完完全全的前端废物，所以几乎全都是照葫芦画瓢<br>
-不过我并没有选择比较普遍的Github Pages/Vercel部署，反正手上有台年付的阿里云HK轻量，不用也是浪费了<br>
+不过我并没有选择比较普遍的 Github Pages/Vercel 部署，反正手上有台年付的阿里云 HK 轻量，不用也是浪费了<br>
 <del>用服务器部署静态博客的我一定是有什么大病</del>
-网页服务器用的是Caddy，配置简单不用管TLS还支持H/3<br>
-文章直接从Mix-Space后台下载md稍微改改front-matter就行了，不过笔记(类似于推文/朋友圈？)还不知道扔哪里比较好</p>
+网页服务器用的是 Caddy，配置简单不用管 TLS 还支持 H/3<br>
+文章直接从 Mix-Space 后台下载 md 稍微改改 front-matter 就行了，不过笔记(类似于推文/朋友圈？)还不知道扔哪里比较好</p>
 <h2 id="最后">最后
 </h2><p>又水了一篇文章啦<br>
 之后应该还会继续完善的，如果有空学了前端说不定还能爆改一番x</p>
@@ -464,6 +468,8 @@
     <section class="article-tags">
         
             <a href="/tags/software/">Software</a>
+        
+            <a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a>
         
     </section>
 
@@ -493,7 +499,7 @@
      
     
         
-    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.21/dist/twikoo.all.min.js"></script>
+    <script src="https://rikka.im/js/twikoo.all.min.js"></script>
 <div id="tcomment"></div>
 <style>
     .twikoo {
@@ -619,25 +625,25 @@
     </div>
 
 </div><script 
-                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                src="https://rikka.im/js/photoswipe.min.js"
                 defer
                 >
             </script><script 
-                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                src="https://rikka.im/js/photoswipe-ui-default.min.js"
                 defer
                 >
             </script><link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+                href="https://rikka.im/js/default-skin.min.css"
             ><link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+                href="https://rikka.im/js/photoswipe.min.css"
             >
 
             </main>
         </div>
         <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                src="https://rikka.im/js/vibrant.min.js"
                 
                 >
             </script><script type="text/javascript" src="/ts/main.js" defer></script>

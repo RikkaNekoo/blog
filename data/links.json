@@ -31,7 +31,7 @@
     },
     {
         "title": "落雨宸",
-        "website": "https://lzc256.com/",
+        "website": "https://lzc256.com",
         "image": "https://s1.lzc256.com/firefish/firefish/b05d0ba4-8b67-4ffb-9877-d3c063585c95.jpg",
         "description": "苦逼高中牲，二分之一少女。"
     },
@@ -43,8 +43,14 @@
     },
     {
         "title": "YAOYAOのBLOG",
-        "website": "https://www.yao.moe/",
+        "website": "https://www.yao.moe",
         "image": "https://rikka.im/yaoyao.webp",
         "description": "横眉冷对千夫指，感觉自己萌萌哒。"
+    },
+    {
+        "title": "湛蓝的调色板",
+        "website": "https://blog.nekoq.top",
+        "image": "https://nekoq.eu.org/static/images/avatar.png",
+        "description": "A cat lying on the keyboard."
     }
   ]

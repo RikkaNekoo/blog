@@ -7,22 +7,107 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rikka</copyright>
-        <lastBuildDate>Sun, 18 Aug 2024 20:23:08 +0800</lastBuildDate><atom:link href="https://rikka.im/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>从Mix-Space迁移至Hugo</title>
+        <lastBuildDate>Sat, 02 Nov 2024 22:55:11 +0800</lastBuildDate><atom:link href="https://rikka.im/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>成为一名&#34;合法&#34;的HAM</title>
+        <link>https://rikka.im/post/to-be-a-legal-ham/</link>
+        <pubDate>Sat, 02 Nov 2024 22:55:11 +0800</pubDate>
+        
+        <guid>https://rikka.im/post/to-be-a-legal-ham/</guid>
+        <description>&lt;h2 id=&#34;首先&#34;&gt;首先
+&lt;/h2&gt;&lt;p&gt;因为我在广东省，所以本文的内容仅针对广东省来撰写，其他的省份可能会有所不同&lt;br&gt;
+在申请呼号前，请确保你&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;熟悉无线电管理规定；&lt;br&gt;
+具有相应的操作技术能力，依照《业余无线电台管理办法》通过相应的操作技术能力验证；&lt;br&gt;
+使用的无线电发射设备依法取得型号核准（型号核准证载明的频率范围包含业余余业频段）；或者使用的自制、改装、拼装等未取得型号核准的无线电发射设备符合国家标准和国家无线电管理规定，且无线电发射频率范围仅限于业余业务频段。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;考取操作证书&#34;&gt;考取操作证书
+&lt;/h2&gt;&lt;p&gt;可以参考 Souiken 写的 &lt;a class=&#34;link&#34; href=&#34;https://blog.souiken.moe/post/amateurRaidoLicenseGuide/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;em&gt;业余无线电操作证考取指南&lt;/em&gt;&lt;/a&gt;&lt;br&gt;
+补充一下，广东的考试计划在&lt;a class=&#34;link&#34; href=&#34;http://ragd.org.cn/ksjh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这里&lt;/a&gt;公布&lt;br&gt;
+建议关注 &lt;strong&gt;广东无线电&lt;/strong&gt; 公众号，考试安排/场次安排/通过名单都会在这里发布（如果为A类考试则由当地无线电机构公众号发布通过名单）&lt;br&gt;
+顺带一提广东的办事效率真的很慢，9.22 考的试，10.14 出的通过名单，11.1 才核发操作证书，截至今天 (11.2) 实体证仍然杳无音讯……&lt;/p&gt;
+&lt;h2 id=&#34;申请执照呼号&#34;&gt;申请执照&amp;amp;呼号
+&lt;/h2&gt;&lt;p&gt;以下内容参考自 BA7LCE 的教程，真的特别感谢&lt;br&gt;
+等在智谱 App 或者在 &lt;a class=&#34;link&#34; href=&#34;http://82.157.138.16:8091/CRAC/crac/pages/list_cert.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CRAC 官网&lt;/a&gt;可以查到自己的证书编号后，就可以进行执照的申请了&lt;/p&gt;
+&lt;h3 id=&#34;资料准备&#34;&gt;资料准备
+&lt;/h3&gt;&lt;p&gt;注意：在某阳江市需要特别准备一些其他的材料，这里暂时不做讨论&lt;br&gt;
+以及揭阳市工信局依然只能上传表 17/19，新规都多久了还没改过来……&lt;br&gt;
+根据广东政务服务网，你需要准备材料如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;《业余无线电台设置、使用申请表》（Excel格式）&lt;/li&gt;
+&lt;li&gt;《业余无线电台设置、使用申请表》（签名电子件，即PDF格式）&lt;/li&gt;
+&lt;li&gt;设备照片&lt;/li&gt;
+&lt;li&gt;监护人身份证明复印件，以及申请人与监护人关系的说明材料（仅未成年人需要）&lt;/li&gt;
+&lt;li&gt;跨区域设置业余无线电台必要性的说明材料（仅跨区使用需要）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;申请表&#34;&gt;申请表
+&lt;/h4&gt;&lt;p&gt;前往&lt;a class=&#34;link&#34; href=&#34;http://www.gdradio.gd.gov.cn:18084/RsApply/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;无线电台资料填报系统&lt;/a&gt;获取&lt;br&gt;
+扫码登录后在右上角的&amp;quot;申请表录入&amp;quot;选择&amp;quot;业余无线电台设置、使用申请表&amp;quot;&lt;br&gt;
+申请人基本信息按实际情况填写即可，&amp;ldquo;编号&amp;quot;一栏写上你在 CRAC 查到的证书编号&lt;/p&gt;
+&lt;p&gt;业余无线电台基本信息&lt;br&gt;
+台站名称建议采用“申请人+频段+业务类别+用途”的方式填写，当然只是官方建议，不过不按照他来不知道会不会被为难&lt;br&gt;
+申请类型新设&lt;br&gt;
+使用方式如果你是基地台就选择&amp;quot;固定&amp;quot;并填写所在的经纬度，车台就选&amp;quot;车载&amp;quot;填写车牌号，背负式电台/手台选择&amp;quot;背负或手持&amp;rdquo;，注意这三者都要填写台站/设置区域，台站就写你的省市区，设置区域如果只在省内用就写广东省，需要出省用就写全国 (要额外提供说明文件)&lt;br&gt;
+申请使用期限不得超过五年，并且最好减去一个月，比如说我是 2024.11.2 申请的，那期限最好是 2029.10.1&lt;br&gt;
+&amp;ldquo;是否同时申请呼号&amp;quot;选择是，&amp;ldquo;原指配呼号&amp;quot;填写&amp;quot;新申请&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;业余无线电台基本参数&lt;br&gt;
+核准代码可以在 &lt;a class=&#34;link&#34; href=&#34;https://ythzxfw.miit.gov.cn/resultQuery&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MIIT&lt;/a&gt; 查询到，序列号在机身铭牌上&lt;br&gt;
+占用带宽和工作频率在核准代码那里可以看到，常见 U/V 手台基本都是 16kHz 占用带宽和 144-148MHz&amp;amp;430-440MHz 工作频率，最大发射功率据实填写 (注意 A 类不能超过 25W)&lt;br&gt;
+一般的手台天线增益填 2，垂直线极化&lt;/p&gt;
+&lt;p&gt;检查确认无误后导出即可&lt;br&gt;
+这里有一个脱敏的&lt;a class=&#34;link&#34; href=&#34;%e4%b8%9a%e4%bd%99%e6%97%a0%e7%ba%bf%e7%94%b5%e5%8f%b0%e8%ae%be%e7%bd%ae%e3%80%81%e4%bd%bf%e7%94%a8%e7%94%b3%e8%af%b7%e8%a1%a8.xlsx&#34; &gt;文件&lt;/a&gt;，可供参考填写&lt;/p&gt;
+&lt;p&gt;签名电子件的话可以在画图软件上签名后将图片插入到 Excel 文档中，在将其转为PDF文件，要注意留一份原版的 Excel 文件&lt;/p&gt;
+&lt;h4 id=&#34;设备照片&#34;&gt;设备照片
+&lt;/h4&gt;&lt;p&gt;这个没什么好说的，把电台的铭牌 (完整包含核准码和序列号) 和正面各拍张照压缩成一个文件即可&lt;/p&gt;
+&lt;h4 id=&#34;监护人关系证明&#34;&gt;监护人关系证明
+&lt;/h4&gt;&lt;p&gt;如果你还是未成年的话，就会需要这个东西&lt;br&gt;
+你需要准备一下监护人的身份证复印件以及户口本你和监护人那一页&lt;br&gt;
+然后插入到证明里的相应位置就行了&lt;br&gt;
+签名方法参照申请表&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;%e5%85%b3%e4%ba%8eXXX%e4%b8%8e%e7%9b%91%e6%8a%a4%e4%ba%ba%e5%85%b3%e7%b3%bb%e7%9a%84%e8%af%b4%e6%98%8e%ef%bc%88%e6%a0%b7%e4%be%8b%ef%bc%89.doc&#34; &gt;模板&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;跨区域设台说明材料&#34;&gt;跨区域设台说明材料
+&lt;/h4&gt;&lt;p&gt;设置区域为全国时需要这个材料&lt;br&gt;
+我手上有两种模板，一种朋友 (BA7KIH) 提供的，内容很简单，在江门可以过，其他地方未知，可以试试&lt;br&gt;
+另一种是 LCE 提供的，内容很多，很复杂而且很难填，如果简单的模板过不了就用这个吧&lt;br&gt;
+签名方法参照申请表&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;%e5%85%b3%e4%ba%8e%e5%85%a8%e5%9b%bd%e4%bd%bf%e7%94%a8%e7%9a%84%e8%af%b4%e6%98%8e%e4%b9%a6.docx&#34; &gt;KIH 模板&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;%e4%b8%9a%e4%bd%99%e6%97%a0%e7%ba%bf%e7%94%b5%e5%8f%b0%e8%b7%a8%e7%9c%81%e8%a1%8c%e6%94%bf%e5%8c%ba%e6%97%a0%e5%9b%ba%e5%ae%9a%e8%ae%be%e5%8f%b0%e8%a1%a5%e5%85%85%e6%9d%90%e6%96%99%e6%a8%a1%e6%9d%bf.docx&#34; &gt;LCE 模板&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;提交申请&#34;&gt;提交申请
+&lt;/h3&gt;&lt;p&gt;去到&lt;a class=&#34;link&#34; href=&#34;https://www.gdzwfw.gov.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;广东政务服务网&lt;/a&gt;并登录，点击上方广东省旁边的切换，找到你所在的城市并打开市工业和信息化局&lt;br&gt;
+找到&amp;quot;无线电台（站）的设置使用和呼号指配审批（新申请）&amp;quot;，展开后选择&amp;quot;业余&amp;quot;或者&amp;quot;业余无线电台（站）的设置使用和呼号指配审批&amp;rdquo;&lt;br&gt;
+点击&amp;quot;在线办理&amp;quot;并按说明上传刚刚准备的文件 (跨区域设台说明材料和申请表的签名电子件一起上传)，确认无误后提交即可&lt;br&gt;
+部分地区是没有监护人关系证明的选项的，把证明和签名电子件一起上传即可&lt;/p&gt;
+&lt;p&gt;接下来等待工信局的审核，很快就能拿到自己的呼号啦&lt;br&gt;
+进度可以在&lt;a class=&#34;link&#34; href=&#34;https://bsxt.gdzwfw.gov.cn/UnifiedReporting/affairs/index&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这里&lt;/a&gt;登录后查看，快的地方基本 0.5-1 个工作日就能出，慢的可能要 7 个工作日&lt;/p&gt;
+&lt;h2 id=&#34;在最后&#34;&gt;在最后
+&lt;/h2&gt;&lt;p&gt;刚提交完申请，周末不审核，大概这周内就能出了&lt;br&gt;
+11.4 号受理当天通过当天寄出，第二天就到了&lt;br&gt;
+DE BA7OUS，期待与你空中相遇哦，73，下次见&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>从 Mix-Space 迁移至 Hugo</title>
         <link>https://rikka.im/post/from-mix-space-to-hugo/</link>
         <pubDate>Sun, 18 Aug 2024 20:23:08 +0800</pubDate>
         
         <guid>https://rikka.im/post/from-mix-space-to-hugo/</guid>
         <description>&lt;h2 id=&#34;为什么&#34;&gt;为什么？
-&lt;/h2&gt;&lt;p&gt;起因是2024/8/18起床水TG群的时候突发奇想想把博客换成静态（&lt;br&gt;
-虽然原先在用的Mix-Space很好用，Shiro前端也很好看，但是占用毕竟还是太大了，速度也有点慢&lt;br&gt;
-于是便光速翻了一遍，最终敲定下来使用Hugo+Stack主题这一套方案&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;起因是 2024/8/18 起床水 TG 群的时候突发奇想想把博客换成静态（&lt;br&gt;
+虽然原先在用的 Mix-Space 很好用，Shiro 前端也很好看，但是占用毕竟还是太大了，速度也有点慢&lt;br&gt;
+于是便光速翻了一遍，最终敲定下来使用 Hugo+Stack 主题这一套方案&lt;/p&gt;
 &lt;h2 id=&#34;过程&#34;&gt;过程
 &lt;/h2&gt;&lt;p&gt;由于我是完完全全的前端废物，所以几乎全都是照葫芦画瓢&lt;br&gt;
-不过我并没有选择比较普遍的Github Pages/Vercel部署，反正手上有台年付的阿里云HK轻量，不用也是浪费了&lt;br&gt;
+不过我并没有选择比较普遍的 Github Pages/Vercel 部署，反正手上有台年付的阿里云 HK 轻量，不用也是浪费了&lt;br&gt;
 &lt;del&gt;用服务器部署静态博客的我一定是有什么大病&lt;/del&gt;
-网页服务器用的是Caddy，配置简单不用管TLS还支持H/3&lt;br&gt;
-文章直接从Mix-Space后台下载md稍微改改front-matter就行了，不过笔记(类似于推文/朋友圈？)还不知道扔哪里比较好&lt;/p&gt;
+网页服务器用的是 Caddy，配置简单不用管 TLS 还支持 H/3&lt;br&gt;
+文章直接从 Mix-Space 后台下载 md 稍微改改 front-matter 就行了，不过笔记(类似于推文/朋友圈？)还不知道扔哪里比较好&lt;/p&gt;
 &lt;h2 id=&#34;最后&#34;&gt;最后
 &lt;/h2&gt;&lt;p&gt;又水了一篇文章啦&lt;br&gt;
 之后应该还会继续完善的，如果有空学了前端说不定还能爆改一番x&lt;/p&gt;
@@ -46,32 +131,27 @@
         
         <guid>https://rikka.im/post/tesla-m40/</guid>
         <description>&lt;h2 id=&#34;关于&#34;&gt;关于
-&lt;/h2&gt;&lt;p&gt;买了台零刻SER5 MAX，对Vega 7羸弱的性能实在是难以忍受&lt;br&gt;
-但是又想要便携性不损失，于是便选择了用NVMe转SFF-8612 (OCuLink)，要带走电脑的话直接把线拔了就行了&lt;br&gt;
-使用的是开源宇宙的EG01，有个架子还是美观点的&lt;br&gt;
-显卡选择Tesla M40的最大原因其实是没钱（x&lt;br&gt;
-性能还OK，显存也大，重点是还便宜&lt;br&gt;
-&lt;img src=&#34;https://rikka.im/post/tesla-m40/nvidia-smi.webp&#34;
-	width=&#34;923&#34;
-	height=&#34;400&#34;
-	srcset=&#34;https://rikka.im/post/tesla-m40/nvidia-smi_hu12665379627296848279.webp 480w, https://rikka.im/post/tesla-m40/nvidia-smi_hu3064919184147781397.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;230&#34;
-		data-flex-basis=&#34;553px&#34;
-	
-&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;买了台零刻 SER5 MAX，对 Vega 7 羸弱的性能实在是难以忍受&lt;br&gt;
+但是又想要便携性不损失，于是便选择了用 NVMe 转 SFF-8612 (OCuLink)，要带走电脑的话直接把线拔了就行了&lt;br&gt;
+使用的是开源宇宙的 EG01，有个架子还是美观点的&lt;br&gt;
+显卡选择 Tesla M40 的最大原因其实是没钱（x&lt;br&gt;
+性能还 OK，显存也大，重点是还便宜&lt;br&gt;
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;nvidia-smi.webp&#34;&gt;
+&lt;img src=&#34;nvidia-smi.webp&#34; alt=&#34;&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;折腾过程&#34;&gt;折腾过程
 &lt;/h2&gt;&lt;p&gt;到货，插电，开机，轻松卡自检&lt;br&gt;
-其实是预料之中的问题，把整个BIOS翻烂了都找不到Above 4G Decoding的选项，用UAFB依然如此&lt;br&gt;
+其实是预料之中的问题，把整个 BIOS 翻烂了都找不到 Above 4G Decoding 的选项，用 UAFB 依然如此&lt;br&gt;
 经过查找，看到一篇&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/read/cv20768695/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;教程&lt;/a&gt;，使用UEFITool查找Above 4G Decoding的VarStoreInfo后使用modGRUBShell强开&lt;br&gt;
-&lt;strong&gt;（附：SER5 MAX的VarStoreInfo为0xF7）&lt;/strong&gt;&lt;br&gt;
+    &gt;教程&lt;/a&gt;，使用 UEFITool 查找 Above 4G Decoding 的 VarStoreInfo 后使用 modGRUBShell 强开&lt;br&gt;
+&lt;strong&gt;（附：SER5 MAX 的 VarStoreInfo 为 0xF7）&lt;/strong&gt;&lt;br&gt;
 开启完成之后就能成功开机了&lt;br&gt;
-接下来就是正常流程的装驱动~~，改注册表开启WDDM (&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/read/cv23955139/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;参考&lt;/a&gt;)~~&lt;br&gt;
+接下来就是正常流程的装驱动 &lt;del&gt;，改注册表开启 WDDM (&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/read/cv23955139/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;参考&lt;/a&gt;)&lt;/del&gt;&lt;br&gt;
 事实上并不需要，只要&lt;strong&gt;管理员&lt;/strong&gt;运行&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -81,9 +161,9 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;nvidia-smi&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-dm&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;即可切换WDDM模式&lt;br&gt;
-Linux下就更简单了，装好闭源驱动就能直接就能用于图形渲染&lt;br&gt;
-不过要注意禁用GSP-RM，否则会出现占用低帧数上不去的问题 (&lt;a class=&#34;link&#34; href=&#34;https://www.ctyun.cn/document/10029787/10356098&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;/div&gt;&lt;p&gt;即可切换 WDDM 模式&lt;br&gt;
+Linux 下就更简单了，装好闭源驱动就能直接就能用于图形渲染&lt;br&gt;
+不过要注意禁用 GSP-RM，否则会出现占用低帧数上不去的问题 (&lt;a class=&#34;link&#34; href=&#34;https://www.ctyun.cn/document/10029787/10356098&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;出处&lt;/a&gt;)&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -103,16 +183,16 @@ Linux下就更简单了，装好闭源驱动就能直接就能用于图形渲染
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;地平线4:
 &lt;ul&gt;
-&lt;li&gt;在Linux下预设高，1080P全程60帧但会有不频发的小卡顿，2K下可以跑55-60帧，小卡顿较为频发但不太影响游戏&lt;/li&gt;
-&lt;li&gt;在Windows下预设高，2K除了在地平线全程60帧&lt;/li&gt;
+&lt;li&gt;在 Linux 下预设高，1080P 全程 60 帧但会有不频发的小卡顿，2K 下可以跑 55-60 帧，小卡顿较为频发但不太影响游戏&lt;/li&gt;
+&lt;li&gt;在 Windows 下预设高，2K 除了在地平线全程 60 帧&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;To do&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;使用体验&#34;&gt;使用体验
 &lt;/h2&gt;&lt;p&gt;显卡坞可以随机启停，这点很棒，不用一直按来按去开关了&lt;br&gt;
-风扇是EVGA的980Ti的，改装了温控，不打游戏时很安静，打游戏也不会很吵&lt;br&gt;
-温度控制的很好，不管玩什么游戏都不会超过50℃&lt;/p&gt;
+风扇是 EVGA 的 980Ti 的，改装了温控，不打游戏时很安静，打游戏也不会很吵&lt;br&gt;
+温度控制的很好，不管玩什么游戏都不会超过 50℃&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -125,26 +205,20 @@ Linux下就更简单了，装好闭源驱动就能直接就能用于图形渲染
 &lt;/h2&gt;&lt;h3 id=&#34;外观&#34;&gt;外观
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.zhihu.com/tardis/bd/art/651914200&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;图片来源&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;正面&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic2.zhimg.com/v2-d2e7c3084966a9a5e65cc08c6884f3c9_b.webp&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;背面&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp&#34;&gt;
+&lt;img src=&#34;https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp&#34; alt=&#34;正面&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://pic2.zhimg.com/v2-d2e7c3084966a9a5e65cc08c6884f3c9_b.webp&#34;&gt;
+&lt;img src=&#34;https://pic2.zhimg.com/v2-d2e7c3084966a9a5e65cc08c6884f3c9_b.webp&#34; alt=&#34;背面&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;p&gt;根据官方提供的参数，主机的尺寸为 126x113x42mm&lt;br&gt;
 整机很轻便，要是口袋大点的甚至可以塞口袋里&lt;/p&gt;
 &lt;h3 id=&#34;参数&#34;&gt;参数
@@ -233,14 +307,14 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
 </description>
         </item>
         <item>
-        <title>半报废的Surface Go2拯救计划</title>
+        <title>半报废的 Surface Go2 拯救计划</title>
         <link>https://rikka.im/post/surface-go2-relife-project/</link>
         <pubDate>Fri, 12 Apr 2024 18:23:55 +0000</pubDate>
         
         <guid>https://rikka.im/post/surface-go2-relife-project/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言
-&lt;/h2&gt;&lt;p&gt;21年的时候一时起兴想买台Windows二合一平板，于是买了台Surface Go2，但是性能过于羸弱，而且发热十分严重，于是吃灰至今&lt;br&gt;
-目前的状态是键盘丢失，USB3.1无法识别，只能用2.0，属于是半报废的状态&lt;br&gt;
+&lt;/h2&gt;&lt;p&gt;21 年的时候一时起兴想买台 Windows 二合一平板，于是买了台 Surface Go2，但是性能过于羸弱，而且发热十分严重，于是吃灰至今&lt;br&gt;
+目前的状态是键盘丢失，USB3.1 无法识别，只能用2.0，属于是半报废的状态&lt;br&gt;
 而官方维修又属实贵的离谱 (2000+)，所以就研究一下能不能让她焕发新机&lt;/p&gt;
 &lt;h2 id=&#34;探索过程&#34;&gt;探索过程
 &lt;/h2&gt;&lt;h3 id=&#34;音游&#34;&gt;音游
@@ -248,21 +322,21 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
 但是很可惜，这台板子的触控真的是我碰过的最差的，没有之一&lt;br&gt;
 我曾尝试过包括但不限于：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;使用Moonlight+Sunshine串流打maimai，但由于延迟太大和多押断触，根本玩不下去&lt;/li&gt;
-&lt;li&gt;使用Brokenithm打CHUNITHM，依然还是多押断触&lt;/li&gt;
-&lt;li&gt;装FydeOS打移动端音游，无一例外都是延迟很大并且明显卡顿&lt;/li&gt;
+&lt;li&gt;使用 Moonlight+Sunshine 串流打 maimai，但由于延迟太大和多押断触，根本玩不下去&lt;/li&gt;
+&lt;li&gt;使用 Brokenithm 打 CHUNITHM，依然还是多押断触&lt;/li&gt;
+&lt;li&gt;装 FydeOS 打移动端音游，无一例外都是延迟很大并且明显卡顿&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;因此打音游直接Pass&lt;/p&gt;
+&lt;p&gt;因此打音游直接 Pass&lt;/p&gt;
 &lt;h3 id=&#34;galgame&#34;&gt;GalGame
-&lt;/h3&gt;&lt;p&gt;既然音游不行，那配置要求更小的GalGame又如何呢？
+&lt;/h3&gt;&lt;p&gt;既然音游不行，那配置要求更小的 GalGame 又如何呢？
 答案依旧是不行&lt;br&gt;
-原因就在于Surface Go2的屏幕并不是标准16:9的1080P，而是3:2的1920x1280&lt;br&gt;
+原因就在于 Surface Go2 的屏幕并不是标准 16:9 的 1080P，而是 3:2 的 1920x1280&lt;br&gt;
 那么这就会导致运行部分Gal会出现一些奇奇怪怪的图形问题，比如说窗口鬼畜，或者根本打不开游戏&lt;br&gt;
-唯一的解决办法就是把分辨率调到1920x1080，但那样的话就得忍受上下大黑边&lt;/p&gt;
+唯一的解决办法就是把分辨率调到 1920x1080，但那样的话就得忍受上下大黑边&lt;/p&gt;
 &lt;h3 id=&#34;android&#34;&gt;Android
 &lt;/h3&gt;&lt;p&gt;你或许注意到了，我上文提到了一个词 &lt;strong&gt;FydeOS&lt;/strong&gt;&lt;br&gt;
-这是一个基于Chromium OS二次开发的系统，兼容Android环境并且高度集成，而且有对Surface系列专门适配过的版本&lt;br&gt;
-但Surface Go2的表现依然是不尽人意的&lt;/p&gt;
+这是一个基于Chromium OS二次开发的系统，兼容 Android 环境并且高度集成，而且有对 Surface 系列专门适配过的版本&lt;br&gt;
+但 Surface Go2 的表现依然是不尽人意的&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;FydeOS 更新日志：&lt;br&gt;
 鉴于 Microsoft Surface 硬件的特殊性，目前只能使用仍在开发中的实验性触控驱动方案。&lt;strong&gt;这会导致触摸识别时有不灵敏的现象。&lt;/strong&gt;&lt;br&gt;
@@ -270,9 +344,9 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
 摄像头&lt;br&gt;
 重新启动时用 PIN 码登录&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;不仅如此，由于m3-8100y和UHD615本身的性能就十分差，再加上驱动问题和转译，运行Android应用的效率低得要命，还有很严重的发热问题&lt;br&gt;
-因此作为Android平板使用也不在我们考虑范围之内&lt;br&gt;
-&lt;del&gt;u1s1应该没人会花大几千买台Win板然后跑Android&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;不仅如此，由于 m3-8100y 和 UHD615 本身的性能就十分差，再加上驱动问题和转译，运行 Android 应用的效率低得要命，还有很严重的发热问题&lt;br&gt;
+因此作为 Android 平板使用也不在我们考虑范围之内&lt;br&gt;
+&lt;del&gt;有一说一应该没人会花大几千买台 Win 板然后跑 Android&lt;/del&gt;&lt;/p&gt;
 &lt;h3 id=&#34;nothing-to-do&#34;&gt;Nothing To Do
 &lt;/h3&gt;&lt;p&gt;已经出了，本文终结&lt;/p&gt;
 &lt;h2 id=&#34;总结&#34;&gt;总结
@@ -281,7 +355,7 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
 </description>
         </item>
         <item>
-        <title>Artemis反向代理配置参考</title>
+        <title>Artemis 反向代理配置参考</title>
         <link>https://rikka.im/post/artemis-prod/</link>
         <pubDate>Sat, 20 Jan 2024 13:31:12 +0000</pubDate>
         
@@ -476,10 +550,8 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
 那么你需要一个有效的 SSL 证书&lt;br&gt;
 可以使用 acme/certbot 自动申请续签&lt;/p&gt;
 &lt;h3 id=&#34;allnet&#34;&gt;ALL.Net
-&lt;/h3&gt;&lt;p&gt;::: warning
-请使用 &lt;strong&gt;naominet.jp&lt;/strong&gt; 作为 server_name&lt;br&gt;
-否则网络自检将会 NG
-:::&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;请务必使用 &lt;strong&gt;naominet.jp&lt;/strong&gt; 作为 server_name&lt;br&gt;
+否则网络自检将会 NG&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -552,7 +624,7 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#如果无需SSL Title可删除下面这段
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#如果无需 SSL Title 可删除下面这段
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;server&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kn&#34;&gt;listen&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;443&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;ssl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kn&#34;&gt;server_name&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;aime.example.com&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
@@ -617,7 +689,7 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;caddy-配置&#34;&gt;Caddy 配置
-&lt;/h2&gt;&lt;p&gt;参考Nginx配置写的&lt;br&gt;
+&lt;/h2&gt;&lt;p&gt;参考 Nginx 写的&lt;br&gt;
 &lt;del&gt;还没测试过，按理来说应该能跑起来&lt;/del&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -673,7 +745,7 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
 </description>
         </item>
         <item>
-        <title>Artemis不完全食用指南</title>
+        <title>Artemis 不完全食用指南</title>
         <link>https://rikka.im/post/artemis-manual/</link>
         <pubDate>Sun, 07 Jan 2024 01:35:33 +0000</pubDate>
         
@@ -785,20 +857,13 @@ BIOS自由度很高，能开放的基本都开放了，无需使用UniversalAMDF
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;启动试试吧，如果一切正常，你将会看到会看到类似&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://rikka.im/post/artemis-manual/artemis.webp&#34;
-	width=&#34;933&#34;
-	height=&#34;143&#34;
-	srcset=&#34;https://rikka.im/post/artemis-manual/artemis_hu14489174471887564318.webp 480w, https://rikka.im/post/artemis-manual/artemis_hu12232662188461304551.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Artemis&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;652&#34;
-		data-flex-basis=&#34;1565px&#34;
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;artemis.webp&#34;&gt;
+&lt;img src=&#34;artemis.webp&#34; alt=&#34;Artemis&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;p&gt;的输出&lt;/p&gt;
 &lt;h2 id=&#34;linux&#34;&gt;Linux
 &lt;/h2&gt;&lt;p&gt;实际上没什么好讲的&lt;br&gt;

@@ -34,6 +34,8 @@ permalinks:
     page: /:slug/
 
 params:
+    fancybox: true
+
     mainSections:
         - post
     featuredImageField: image

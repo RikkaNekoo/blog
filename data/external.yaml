@@ -1,0 +1,30 @@
+Vibrant:
+    - src: https://rikka.im/js/vibrant.min.js
+      type: script
+
+PhotoSwipe:
+    - src: https://rikka.im/js/photoswipe.min.js
+      type: script
+      defer: true
+
+    - src: https://rikka.im/js/photoswipe-ui-default.min.js
+      type: script
+      defer: true
+
+    - src: https://rikka.im/js/default-skin.min.css
+      type: style
+
+    - src: https://rikka.im/js/photoswipe.min.css
+      type: style
+
+KaTeX:
+    - src: https://rikka.im/js/katex.min.css
+      type: style
+
+    - src: https://rikka.im/js/katex.min.js
+      type: script
+      defer: true
+
+    - src: https://rikka.im/js/auto-render.min.js
+      type: script
+      defer: true

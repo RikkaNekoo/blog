@@ -7,8 +7,93 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rikka</copyright>
-        <lastBuildDate>Sat, 20 Jan 2024 13:31:12 +0000</lastBuildDate><atom:link href="https://rikka.im/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Artemis反向代理配置参考</title>
+        <lastBuildDate>Sat, 02 Nov 2024 22:55:11 +0800</lastBuildDate><atom:link href="https://rikka.im/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>成为一名&#34;合法&#34;的HAM</title>
+        <link>https://rikka.im/post/to-be-a-legal-ham/</link>
+        <pubDate>Sat, 02 Nov 2024 22:55:11 +0800</pubDate>
+        
+        <guid>https://rikka.im/post/to-be-a-legal-ham/</guid>
+        <description>&lt;h2 id=&#34;首先&#34;&gt;首先
+&lt;/h2&gt;&lt;p&gt;因为我在广东省，所以本文的内容仅针对广东省来撰写，其他的省份可能会有所不同&lt;br&gt;
+在申请呼号前，请确保你&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;熟悉无线电管理规定；&lt;br&gt;
+具有相应的操作技术能力，依照《业余无线电台管理办法》通过相应的操作技术能力验证；&lt;br&gt;
+使用的无线电发射设备依法取得型号核准（型号核准证载明的频率范围包含业余余业频段）；或者使用的自制、改装、拼装等未取得型号核准的无线电发射设备符合国家标准和国家无线电管理规定，且无线电发射频率范围仅限于业余业务频段。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;考取操作证书&#34;&gt;考取操作证书
+&lt;/h2&gt;&lt;p&gt;可以参考 Souiken 写的 &lt;a class=&#34;link&#34; href=&#34;https://blog.souiken.moe/post/amateurRaidoLicenseGuide/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;em&gt;业余无线电操作证考取指南&lt;/em&gt;&lt;/a&gt;&lt;br&gt;
+补充一下，广东的考试计划在&lt;a class=&#34;link&#34; href=&#34;http://ragd.org.cn/ksjh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这里&lt;/a&gt;公布&lt;br&gt;
+建议关注 &lt;strong&gt;广东无线电&lt;/strong&gt; 公众号，考试安排/场次安排/通过名单都会在这里发布（如果为A类考试则由当地无线电机构公众号发布通过名单）&lt;br&gt;
+顺带一提广东的办事效率真的很慢，9.22 考的试，10.14 出的通过名单，11.1 才核发操作证书，截至今天 (11.2) 实体证仍然杳无音讯……&lt;/p&gt;
+&lt;h2 id=&#34;申请执照呼号&#34;&gt;申请执照&amp;amp;呼号
+&lt;/h2&gt;&lt;p&gt;以下内容参考自 BA7LCE 的教程，真的特别感谢&lt;br&gt;
+等在智谱 App 或者在 &lt;a class=&#34;link&#34; href=&#34;http://82.157.138.16:8091/CRAC/crac/pages/list_cert.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CRAC 官网&lt;/a&gt;可以查到自己的证书编号后，就可以进行执照的申请了&lt;/p&gt;
+&lt;h3 id=&#34;资料准备&#34;&gt;资料准备
+&lt;/h3&gt;&lt;p&gt;注意：在某阳江市需要特别准备一些其他的材料，这里暂时不做讨论&lt;br&gt;
+以及揭阳市工信局依然只能上传表 17/19，新规都多久了还没改过来……&lt;br&gt;
+根据广东政务服务网，你需要准备材料如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;《业余无线电台设置、使用申请表》（Excel格式）&lt;/li&gt;
+&lt;li&gt;《业余无线电台设置、使用申请表》（签名电子件，即PDF格式）&lt;/li&gt;
+&lt;li&gt;设备照片&lt;/li&gt;
+&lt;li&gt;监护人身份证明复印件，以及申请人与监护人关系的说明材料（仅未成年人需要）&lt;/li&gt;
+&lt;li&gt;跨区域设置业余无线电台必要性的说明材料（仅跨区使用需要）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;申请表&#34;&gt;申请表
+&lt;/h4&gt;&lt;p&gt;前往&lt;a class=&#34;link&#34; href=&#34;http://www.gdradio.gd.gov.cn:18084/RsApply/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;无线电台资料填报系统&lt;/a&gt;获取&lt;br&gt;
+扫码登录后在右上角的&amp;quot;申请表录入&amp;quot;选择&amp;quot;业余无线电台设置、使用申请表&amp;quot;&lt;br&gt;
+申请人基本信息按实际情况填写即可，&amp;ldquo;编号&amp;quot;一栏写上你在 CRAC 查到的证书编号&lt;/p&gt;
+&lt;p&gt;业余无线电台基本信息&lt;br&gt;
+台站名称建议采用“申请人+频段+业务类别+用途”的方式填写，当然只是官方建议，不过不按照他来不知道会不会被为难&lt;br&gt;
+申请类型新设&lt;br&gt;
+使用方式如果你是基地台就选择&amp;quot;固定&amp;quot;并填写所在的经纬度，车台就选&amp;quot;车载&amp;quot;填写车牌号，背负式电台/手台选择&amp;quot;背负或手持&amp;rdquo;，注意这三者都要填写台站/设置区域，台站就写你的省市区，设置区域如果只在省内用就写广东省，需要出省用就写全国 (要额外提供说明文件)&lt;br&gt;
+申请使用期限不得超过五年，并且最好减去一个月，比如说我是 2024.11.2 申请的，那期限最好是 2029.10.1&lt;br&gt;
+&amp;ldquo;是否同时申请呼号&amp;quot;选择是，&amp;ldquo;原指配呼号&amp;quot;填写&amp;quot;新申请&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;业余无线电台基本参数&lt;br&gt;
+核准代码可以在 &lt;a class=&#34;link&#34; href=&#34;https://ythzxfw.miit.gov.cn/resultQuery&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MIIT&lt;/a&gt; 查询到，序列号在机身铭牌上&lt;br&gt;
+占用带宽和工作频率在核准代码那里可以看到，常见 U/V 手台基本都是 16kHz 占用带宽和 144-148MHz&amp;amp;430-440MHz 工作频率，最大发射功率据实填写 (注意 A 类不能超过 25W)&lt;br&gt;
+一般的手台天线增益填 2，垂直线极化&lt;/p&gt;
+&lt;p&gt;检查确认无误后导出即可&lt;br&gt;
+这里有一个脱敏的&lt;a class=&#34;link&#34; href=&#34;%e4%b8%9a%e4%bd%99%e6%97%a0%e7%ba%bf%e7%94%b5%e5%8f%b0%e8%ae%be%e7%bd%ae%e3%80%81%e4%bd%bf%e7%94%a8%e7%94%b3%e8%af%b7%e8%a1%a8.xlsx&#34; &gt;文件&lt;/a&gt;，可供参考填写&lt;/p&gt;
+&lt;p&gt;签名电子件的话可以在画图软件上签名后将图片插入到 Excel 文档中，在将其转为PDF文件，要注意留一份原版的 Excel 文件&lt;/p&gt;
+&lt;h4 id=&#34;设备照片&#34;&gt;设备照片
+&lt;/h4&gt;&lt;p&gt;这个没什么好说的，把电台的铭牌 (完整包含核准码和序列号) 和正面各拍张照压缩成一个文件即可&lt;/p&gt;
+&lt;h4 id=&#34;监护人关系证明&#34;&gt;监护人关系证明
+&lt;/h4&gt;&lt;p&gt;如果你还是未成年的话，就会需要这个东西&lt;br&gt;
+你需要准备一下监护人的身份证复印件以及户口本你和监护人那一页&lt;br&gt;
+然后插入到证明里的相应位置就行了&lt;br&gt;
+签名方法参照申请表&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;%e5%85%b3%e4%ba%8eXXX%e4%b8%8e%e7%9b%91%e6%8a%a4%e4%ba%ba%e5%85%b3%e7%b3%bb%e7%9a%84%e8%af%b4%e6%98%8e%ef%bc%88%e6%a0%b7%e4%be%8b%ef%bc%89.doc&#34; &gt;模板&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;跨区域设台说明材料&#34;&gt;跨区域设台说明材料
+&lt;/h4&gt;&lt;p&gt;设置区域为全国时需要这个材料&lt;br&gt;
+我手上有两种模板，一种朋友 (BA7KIH) 提供的，内容很简单，在江门可以过，其他地方未知，可以试试&lt;br&gt;
+另一种是 LCE 提供的，内容很多，很复杂而且很难填，如果简单的模板过不了就用这个吧&lt;br&gt;
+签名方法参照申请表&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;%e5%85%b3%e4%ba%8e%e5%85%a8%e5%9b%bd%e4%bd%bf%e7%94%a8%e7%9a%84%e8%af%b4%e6%98%8e%e4%b9%a6.docx&#34; &gt;KIH 模板&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;%e4%b8%9a%e4%bd%99%e6%97%a0%e7%ba%bf%e7%94%b5%e5%8f%b0%e8%b7%a8%e7%9c%81%e8%a1%8c%e6%94%bf%e5%8c%ba%e6%97%a0%e5%9b%ba%e5%ae%9a%e8%ae%be%e5%8f%b0%e8%a1%a5%e5%85%85%e6%9d%90%e6%96%99%e6%a8%a1%e6%9d%bf.docx&#34; &gt;LCE 模板&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;提交申请&#34;&gt;提交申请
+&lt;/h3&gt;&lt;p&gt;去到&lt;a class=&#34;link&#34; href=&#34;https://www.gdzwfw.gov.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;广东政务服务网&lt;/a&gt;并登录，点击上方广东省旁边的切换，找到你所在的城市并打开市工业和信息化局&lt;br&gt;
+找到&amp;quot;无线电台（站）的设置使用和呼号指配审批（新申请）&amp;quot;，展开后选择&amp;quot;业余&amp;quot;或者&amp;quot;业余无线电台（站）的设置使用和呼号指配审批&amp;rdquo;&lt;br&gt;
+点击&amp;quot;在线办理&amp;quot;并按说明上传刚刚准备的文件 (跨区域设台说明材料和申请表的签名电子件一起上传)，确认无误后提交即可&lt;br&gt;
+部分地区是没有监护人关系证明的选项的，把证明和签名电子件一起上传即可&lt;/p&gt;
+&lt;p&gt;接下来等待工信局的审核，很快就能拿到自己的呼号啦&lt;br&gt;
+进度可以在&lt;a class=&#34;link&#34; href=&#34;https://bsxt.gdzwfw.gov.cn/UnifiedReporting/affairs/index&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这里&lt;/a&gt;登录后查看，快的地方基本 0.5-1 个工作日就能出，慢的可能要 7 个工作日&lt;/p&gt;
+&lt;h2 id=&#34;在最后&#34;&gt;在最后
+&lt;/h2&gt;&lt;p&gt;刚提交完申请，周末不审核，大概这周内就能出了&lt;br&gt;
+11.4 号受理当天通过当天寄出，第二天就到了&lt;br&gt;
+DE BA7OUS，期待与你空中相遇哦，73，下次见&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Artemis 反向代理配置参考</title>
         <link>https://rikka.im/post/artemis-prod/</link>
         <pubDate>Sat, 20 Jan 2024 13:31:12 +0000</pubDate>
         
@@ -203,10 +288,8 @@
 那么你需要一个有效的 SSL 证书&lt;br&gt;
 可以使用 acme/certbot 自动申请续签&lt;/p&gt;
 &lt;h3 id=&#34;allnet&#34;&gt;ALL.Net
-&lt;/h3&gt;&lt;p&gt;::: warning
-请使用 &lt;strong&gt;naominet.jp&lt;/strong&gt; 作为 server_name&lt;br&gt;
-否则网络自检将会 NG
-:::&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;请务必使用 &lt;strong&gt;naominet.jp&lt;/strong&gt; 作为 server_name&lt;br&gt;
+否则网络自检将会 NG&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -279,7 +362,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#如果无需SSL Title可删除下面这段
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#如果无需 SSL Title 可删除下面这段
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;server&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kn&#34;&gt;listen&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;443&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;ssl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kn&#34;&gt;server_name&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;aime.example.com&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
@@ -344,7 +427,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;caddy-配置&#34;&gt;Caddy 配置
-&lt;/h2&gt;&lt;p&gt;参考Nginx配置写的&lt;br&gt;
+&lt;/h2&gt;&lt;p&gt;参考 Nginx 写的&lt;br&gt;
 &lt;del&gt;还没测试过，按理来说应该能跑起来&lt;/del&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -400,7 +483,7 @@
 </description>
         </item>
         <item>
-        <title>Artemis不完全食用指南</title>
+        <title>Artemis 不完全食用指南</title>
         <link>https://rikka.im/post/artemis-manual/</link>
         <pubDate>Sun, 07 Jan 2024 01:35:33 +0000</pubDate>
         
@@ -512,20 +595,13 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;启动试试吧，如果一切正常，你将会看到会看到类似&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://rikka.im/post/artemis-manual/artemis.webp&#34;
-	width=&#34;933&#34;
-	height=&#34;143&#34;
-	srcset=&#34;https://rikka.im/post/artemis-manual/artemis_hu14489174471887564318.webp 480w, https://rikka.im/post/artemis-manual/artemis_hu12232662188461304551.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Artemis&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;652&#34;
-		data-flex-basis=&#34;1565px&#34;
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;artemis.webp&#34;&gt;
+&lt;img src=&#34;artemis.webp&#34; alt=&#34;Artemis&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;p&gt;的输出&lt;/p&gt;
 &lt;h2 id=&#34;linux&#34;&gt;Linux
 &lt;/h2&gt;&lt;p&gt;实际上没什么好讲的&lt;br&gt;
