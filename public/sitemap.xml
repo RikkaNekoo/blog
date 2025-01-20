@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rikka.im/post/kaiping-no-1-middle-school-survival-guide/</loc>
+    <lastmod>2025-01-19T15:28:26+08:00</lastmod>
+  </url><url>
     <loc>https://rikka.im/categories/</loc>
-    <lastmod>2024-11-02T22:55:11+08:00</lastmod>
+    <lastmod>2025-01-19T15:28:26+08:00</lastmod>
   </url><url>
     <loc>https://rikka.im/post/</loc>
-    <lastmod>2024-11-02T22:55:11+08:00</lastmod>
+    <lastmod>2025-01-19T15:28:26+08:00</lastmod>
   </url><url>
     <loc>https://rikka.im/</loc>
-    <lastmod>2024-11-02T22:55:11+08:00</lastmod>
+    <lastmod>2025-01-19T15:28:26+08:00</lastmod>
   </url><url>
     <loc>https://rikka.im/tags/</loc>
-    <lastmod>2024-11-02T22:55:11+08:00</lastmod>
+    <lastmod>2025-01-19T15:28:26+08:00</lastmod>
   </url><url>
-    <loc>https://rikka.im/post/to-be-a-legal-ham/</loc>
+    <loc>https://rikka.im/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2025-01-19T15:28:26+08:00</lastmod>
+  </url><url>
+    <loc>https://rikka.im/tags/%E5%AD%A6%E4%B8%9A/</loc>
+    <lastmod>2025-01-19T15:28:26+08:00</lastmod>
+  </url><url>
+    <loc>https://rikka.im/categories/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2025-01-19T15:28:26+08:00</lastmod>
+  </url><url>
+    <loc>https://rikka.im/post/amateur-radio-license-applying-guidance/</loc>
     <lastmod>2024-11-02T22:55:11+08:00</lastmod>
   </url><url>
     <loc>https://rikka.im/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-11-02T22:55:11+08:00</lastmod>
-  </url><url>
-    <loc>https://rikka.im/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2024-11-02T22:55:11+08:00</lastmod>
   </url><url>
     <loc>https://rikka.im/tags/%E6%97%A0%E7%BA%BF%E7%94%B5/</loc>
@@ -33,9 +42,6 @@
     <lastmod>2024-08-18T20:23:08+08:00</lastmod>
   </url><url>
     <loc>https://rikka.im/post/from-mix-space-to-hugo/</loc>
-    <lastmod>2024-08-18T20:23:08+08:00</lastmod>
-  </url><url>
-    <loc>https://rikka.im/categories/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2024-08-18T20:23:08+08:00</lastmod>
   </url><url>
     <loc>https://rikka.im/tags/computer/</loc>

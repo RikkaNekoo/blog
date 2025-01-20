@@ -13,7 +13,7 @@ menu:
 
 
 ## 一些信息
-你好，这里Rikka，或者也可以叫我六花 ~~、刘华、6flower~~ ，以及常用名RikkaNaa，RikkaNya  
+你好，这里Rikka Shiina，或者也可以叫我六花 ~~、刘华、6flower~~ ，以及常用名RikkaNaa，RikkaNya  
 关于这个名字，大概是几年前在看中二病的时候用的微信名，久而久之被朋友叫习惯了））  
 通常来说，我居住在大湾区某个超破烂的小县城，寒暑假大概率会在广州刷新，所以有机会的话或许可以面一下（？  
 
@@ -26,12 +26,12 @@ menu:
 ACGN爱好者，成分超级复杂，基本以打音游居多  
 喜欢各种与计算机有关的东西  
 可能是一六年上下，我获得了人生中第一台电脑，于是便不可收拾的投入到计算机中，不过这么多年了似乎还是什么都不懂（笑  
-曾经混iOS越狱圈、Android刷机圈，当过Buildbot，学过一点点(真的只有一点点)Python和C++，拿过几个没用的奖项  
+曾经混iOS越狱圈、Android刷机圈，当过Buildbot，学过一点点（真的只有一点点）Python和C++，拿过几个没用的奖项  
 现在在玩DN42以及折腾各种 ~~无意义~~ 的事物  
 
 ## 开发环境
 [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11)  
-[ArchLinux](https://archlinux.org/)  
+[EndeavourOS](https://endeavouros.com/)  
 [Android 14](https://www.android.com/android-14/)  
 [iPadOS 16.6](https://support.apple.com/zh-cn/108050)
 
@@ -55,7 +55,7 @@ Luminous
 ![国服](maimai.webp)  
 **Phigros**  
 
-RKS: 14.98  
+RKS: 15.00  
 
 **Project Sekai**  
 台服 ID: 7141744334939904769  

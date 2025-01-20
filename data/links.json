@@ -50,7 +50,13 @@
     {
         "title": "湛蓝的调色板",
         "website": "https://blog.nekoq.top",
-        "image": "https://nekoq.eu.org/static/images/avatar.png",
+        "image": "https://blog.nekoq.top/static/images/avatar.png",
         "description": "A cat lying on the keyboard."
+    },
+    {
+        "title": "Izumino's Blog",
+        "website": "https://blog.izumino.cat/",
+        "image": "https://izumino.cat/avatar.webp",
+        "description": "A catgirl developer"
     }
   ]

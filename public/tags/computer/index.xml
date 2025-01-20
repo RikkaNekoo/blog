@@ -6,7 +6,7 @@
         <description>Recent content in Computer on Rikkaの小小窝</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Rikka</copyright>
+        <copyright>Rikka Shiina</copyright>
         <lastBuildDate>Fri, 31 May 2024 14:36:07 +0000</lastBuildDate><atom:link href="https://rikka.im/tags/computer/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Tesla M40 上手体验</title>
         <link>https://rikka.im/post/tesla-m40/</link>
@@ -137,42 +137,42 @@ Linux 下就更简单了，装好闭源驱动就能直接就能用于图形渲�
 &lt;/ul&gt;
 &lt;p&gt;详细配置如表&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;硬件&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;型号&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;CPU&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;AMD Ryzen 7 5800H&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;GPU&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;AMD Radeon Vega 8 &amp;amp; NVIDIA Tesla M40&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;RAM&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Gloway DDR4-2666 16G&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;硬盘&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Zhitai SC001 Active 1T&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;声卡&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Realtek ALC897&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;有线网卡&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Realtek RTL8168&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;无线网卡&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Intel AX200&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;硬件&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;型号&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;CPU&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AMD Ryzen 7 5800H&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;GPU&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AMD Radeon Vega 8 &amp;amp; NVIDIA Tesla M40&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;RAM&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Gloway DDR4-2666 16G&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;硬盘&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Zhitai SC001 Active 1T&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;声卡&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Realtek ALC897&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;有线网卡&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Realtek RTL8168&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;无线网卡&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Intel AX200&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;使用体验&#34;&gt;使用体验
 &lt;/h2&gt;&lt;p&gt;做工很棒，拆开机器里面可以说是赏心悦目，仿佛一个工艺品，比我之前的天钡MN5X好很多&lt;br&gt;

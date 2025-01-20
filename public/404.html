@@ -6,17 +6,14 @@
 
 <link rel='canonical' href='https://rikka.im/404.html'>
 
-<link rel="stylesheet" href="/scss/style.min.0b2aba3282870643ad43ccdfd0bc80e0b95bfa067b49a73451bfa27353ed0d9a.css"><meta property='og:title' content="404 Page not found">
+<link rel="stylesheet" href="/scss/style.min.3eeb74b546c05a77e0adadbf2fd217a3076cb70dffe92783559e039d8e893494.css"><meta property='og:title' content="404 Page not found">
 <meta property='og:description' content="早上好哦(つω`*)～☆">
 <meta property='og:url' content='https://rikka.im/404.html'>
 <meta property='og:site_name' content='Rikkaの小小窝'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2024-11-02T22:55:11&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-01-19T15:28:26&#43;08:00 '/>
 <meta name="twitter:title" content="404 Page not found">
 <meta name="twitter:description" content="早上好哦(つω`*)～☆">
     <link rel="shortcut icon" href="/favicon.ico" />
-
-  
-
 
 <script src="/zoom/jquery.min.js"></script>
 <link rel="stylesheet" href="/zoom/jquery.fancybox.min.css" />
@@ -332,19 +329,54 @@
     <div class="not-found-card">
         <h1 class="article-title">404 错误</h1>
         <h2 class="article-subtitle">页面不存在</h2>
-    </div>
-    <footer class="site-footer">
+    </div><form action="/search/" class="search-form widget" data-json="https://rikka.im/search/index.json">
+            <p>
+                <label>搜索</label>
+                <input id="searchInput" name="keyword" required placeholder="输入关键词..." />
+            
+                <button title="搜索">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                </button>
+            </p>
+        </form>
+
+        <div class="search-result">
+            <h3 class="search-result--title section-title"></h3>
+            <div class="search-result--list article-list--compact"></div>
+        </div>
+        
+        <script>
+            window.searchResultTitleTemplate = "#PAGES_COUNT 个结果 （用时 #TIME_SECONDS 秒）"
+        </script><script type="text/javascript" src="/ts/search.js" defer></script>
+
+        <script>
+            const wrongUrl = new URL(window.location.href);
+
+            
+            const searchKeyword = wrongUrl.pathname.split(/[/|-]/).join(' ').trim();
+
+            document.getElementById('searchInput').setAttribute('value', searchKeyword);
+        </script><footer class="site-footer">
     <section class="copyright">
         &copy; 
         
-        2024 Rikka
+            2024 - 
+        
+        2025 Rikka Shiina
     </section>
     
     <section class="powerby">
         
             <a href="https://icp.gov.moe/?keyword=20240925" target="_blank">萌ICP备20240925号</a> <br/>
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -355,7 +387,7 @@
                 src="https://rikka.im/js/vibrant.min.js"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

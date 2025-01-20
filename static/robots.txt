@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /categories/
+Disallow: /search/
+Disallow: /tags/
+Disallow: /archives/
+
+Sitemap: https://rikka.im/sitemap.xml
