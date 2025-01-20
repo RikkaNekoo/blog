@@ -9,9 +9,6 @@ menu:
             icon: user
 ---
 
-# 关于我
-
-
 ## 一些信息
 你好，这里Rikka Shiina，或者也可以叫我六花 ~~、刘华、6flower~~ ，以及常用名RikkaNaa，RikkaNya  
 关于这个名字，大概是几年前在看中二病的时候用的微信名，久而久之被朋友叫习惯了））  
