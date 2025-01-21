@@ -30,7 +30,7 @@ jobs:
                   PUBLISH_BRANCH: main
                   PUBLISH_DIR: ./public
                   commit_message: ${{ github.event.head_commit.message }}
-            
+
             - name: Push to server
               uses: appleboy/ssh-action@v1.2.0
               with:
@@ -41,12 +41,3 @@ jobs:
                   cd /etc/caddy/site/blog
                   git pull
             
-            - name: Sleep for 40 seconds
-              run: sleep 40s
-            
-            - name: Submit to IndexNow
-              uses: bojieyang/indexnow-action@v2
-              with:
-                sitemap-location: "https://rikka.im/sitemap.xml"
-                key: ${{ secrets.INDEXNOW_KEY }}
-                run: echo ${{ secrets.INDEXNOW_KEY }} > ${{ secrets.INDEXNOW_KEY }}.txt

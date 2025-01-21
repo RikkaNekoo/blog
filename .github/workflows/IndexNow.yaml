@@ -1,0 +1,18 @@
+name: IndexNow
+
+on:
+    workflow_dispatch:
+    schedule:
+      - cron:  '0 0,12 * * *'
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Submit to IndexNow
+              uses: bojieyang/indexnow-action@v2
+              with:
+                sitemap-location: "https://rikka.im/sitemap.xml"
+                key: ${{ secrets.INDEXNOW_KEY }}
+                failure-strategy: error
+                run: echo ${{ secrets.INDEXNOW_KEY }} > ${{ secrets.INDEXNOW_KEY }}.txt
