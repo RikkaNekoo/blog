@@ -10,7 +10,7 @@ menu:
 ---
 
 ## 一些信息
-你好，这里Rikka Shiina，或者也可以叫我六花 ~~、刘华、6flower~~ ，以及常用名RikkaNaa，RikkaNya  
+你好，这里Rikka Shiina，或者也可以叫我六花、~~、刘华、6flower、力咖~~、RikkaNeko、RikkaNaa、RikkaNya  
 关于这个名字，大概是几年前在看中二病的时候用的微信名，久而久之被朋友叫习惯了））  
 通常来说，我居住在大湾区某个超破烂的小县城，寒暑假大概率会在广州刷新，所以有机会的话或许可以面一下（？  
 
@@ -29,12 +29,14 @@ ACGN爱好者，成分超级复杂，基本以打音游居多
 ## 开发环境
 [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11)  
 [EndeavourOS](https://endeavouros.com/)  
-[Android 14](https://www.android.com/android-14/)  
+[Android 14](https://www.android.com/android-14/)
+[Android 15](https://www.android.com/android-15/)  
 [iPadOS 16.6](https://support.apple.com/zh-cn/108050)
 
 ## 设备
 - iPad Pro 2017  
 - MEIZU 21  
+- Google Pixel 6 Pro
 - 零刻 SER5 MAX
 
 ## Misc
