@@ -58,5 +58,17 @@
         "website": "https://blog.izumino.cat/",
         "image": "https://izumino.cat/avatar.webp",
         "description": "A catgirl developer"
+    },
+    {
+        "title": "MBRjun-Blog",
+        "website": "https://www.mbrjun.cn/",
+        "image": "https://cos.mbrjun.cn/PICS/LG4v3avatar144px.jpg",
+        "description": "我们生活在大地上，但我们的梦想超越天空"
+    },
+    {
+        "title": "一叶知秋",
+        "website": "https://blog.rain.cx/",
+        "image": "https://cos.mbrjun.cn/PICS/LG4v3avatar144px.jpg",
+        "description": "二分之一少女，乘着比特流环游世界~"
     }
   ]
