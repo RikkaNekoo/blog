@@ -4,7 +4,7 @@ title: Artemis 不完全食用指南
 slug: artemis-manual
 categories: 开发
 tags:
-  - Dev
+  - 软件
   - 教程
   - 音游
 ---

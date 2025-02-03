@@ -4,9 +4,10 @@ title: Tesla M40 上手体验
 slug: tesla-m40
 categories: 开发
 tags:
-    - Dev
-    - Software
-    - Computer
+    - 软件
+    - 硬件
+    - 电脑
+    - 评测
 ---
 
 ## 关于

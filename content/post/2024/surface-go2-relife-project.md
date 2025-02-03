@@ -4,7 +4,7 @@ title: 半报废的 Surface Go2 拯救计划
 slug: surface-go2-relife-project
 categories: 杂物间
 tags: 
-    - Computer
+    - 电脑
     - 随笔
 ---
 

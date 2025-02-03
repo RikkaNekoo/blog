@@ -4,8 +4,7 @@ title: Artemis 反向代理配置参考
 slug: artemis-prod
 categories: 开发
 tags:
-  - Software
-  - Dev
+  - 软件
   - 音游
   - 教程
 ---

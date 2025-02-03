@@ -5,7 +5,9 @@ slug: beelink-ser5-max
 image: https://pic3.zhimg.com/v2-251c8c7b96949f2d045db157e46a5106_b.webp
 categories: 杂物间
 tags:
-    - Computer
+    - 电脑
+    - 硬件
+    - 评测
     - 随笔
 ---
 

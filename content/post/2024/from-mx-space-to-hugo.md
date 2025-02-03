@@ -4,7 +4,7 @@ date: 2024-08-18T20:23:08+08:00
 slug: from-mix-space-to-hugo
 categories: 杂谈
 tags:
-    - Software
+    - 软件
     - 随笔
 ---
 
