@@ -2,7 +2,6 @@ name: deploy
 
 on:
     push:
-    workflow_dispatch:
 
 jobs:
     build:
@@ -40,5 +39,7 @@ jobs:
                 key: ${{ secrets.SSH_KEY }}
                 script: |
                   cd /etc/caddy/site/blog
+                  git restore .
                   git pull
+                  echo ${{ secrets.INDEXNOW_KEY }} > ${{ secrets.INDEXNOW_KEY }}.txt
             

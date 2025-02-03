@@ -15,4 +15,3 @@ jobs:
                 sitemap-location: "https://rikka.im/sitemap.xml"
                 key: ${{ secrets.INDEXNOW_KEY }}
                 failure-strategy: error
-                run: echo ${{ secrets.INDEXNOW_KEY }} > ${{ secrets.INDEXNOW_KEY }}.txt
