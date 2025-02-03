@@ -28,16 +28,16 @@ ACGN爱好者，成分超级复杂，基本以打音游居多
 
 ## 开发环境
 [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11)  
-[EndeavourOS](https://endeavouros.com/)  
-[Android 14](https://www.android.com/android-14/)
+[Arch Linux](https://archlinux.org/)  
+[Android 14](https://www.android.com/android-14/)  
 [Android 15](https://www.android.com/android-15/)  
 [iPadOS 16.6](https://support.apple.com/zh-cn/108050)
 
 ## 设备
+- 魅族 21  
 - iPad Pro 2017  
-- MEIZU 21  
-- Google Pixel 6 Pro
-- 零刻 SER5 MAX
+- Google Pixel 6 Pro  
+- 机械革命无界 15X 暴风雪
 
 ## Misc
 <details>  
