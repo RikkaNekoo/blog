@@ -5,7 +5,6 @@ slug: surface-go2-relife-project
 categories: 杂物间
 tags: 
     - 电脑
-    - 随笔
 ---
 
 ## 前言
