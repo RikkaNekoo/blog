@@ -2,7 +2,7 @@ baseurl: https://rikka.im
 languageCode: zh_cn
 theme: hugo-theme-stack
 title: Rikkaの小小窝
-copyright: Rikka Shiina
+copyright: Shiina Rikka
 pagination:
     pagerSize: 8
 

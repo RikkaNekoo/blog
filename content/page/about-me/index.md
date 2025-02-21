@@ -10,7 +10,7 @@ menu:
 ---
 
 ## 一些信息
-你好，这里Rikka Shiina，或者也可以叫我六花、~~、刘华、6flower、力咖~~、RikkaNeko、RikkaNaa、RikkaNya  
+你好，这里Shiina Rikka，或者也可以叫我六花、~~、刘华、6flower、力咖~~、RikkaNeko、RikkaNaa、RikkaNya  
 关于这个名字，大概是几年前在看中二病的时候用的微信名，久而久之被朋友叫习惯了））  
 通常来说，我居住在大湾区某个超破烂的小县城，寒暑假大概率会在广州刷新，所以有机会的话或许可以面一下（？  
 
