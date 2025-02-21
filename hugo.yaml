@@ -224,21 +224,21 @@ menu:
 
         - identifier: telegram
           name: Telegram
-          url: https://t.me/RikkaNaaa
+          url: https://t.me/RikkaNekoo
           weight: 3
           params:
               icon: brand-telegram
 
         - identifier: github
           name: GitHub
-          url: https://github.com/RikkaNaa
+          url: https://github.com/RikkaNekoo
           weight: 2
           params:
               icon: brand-github
 
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com/RikkaNaaa
+          url: https://twitter.com/RikkaNekoo
           weight: 3
           params:
               icon: brand-twitter
