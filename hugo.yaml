@@ -213,6 +213,14 @@ menu:
           params:
               newTab: false
               icon: categories
+        
+        - identifier: travelling
+          name: 开往
+          url: https://www.travellings.cn/go.html
+          weight: 20
+          params:
+              newTab: true
+              icon: train
 
     social:
         - identifier: mail
