@@ -27,14 +27,14 @@ ACGN爱好者，成分超级复杂，基本以打音游居多
 现在在玩DN42以及折腾各种 ~~无意义~~ 的事物  
 
 ## 开发环境
-[Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11)  
-[Arch Linux](https://archlinux.org/)  
-[Android 14](https://www.android.com/android-14/)  
-[Android 15](https://www.android.com/android-15/)  
-[iPadOS 16.6](https://support.apple.com/zh-cn/108050)
+[Windows 10](https://www.microsoft.com/zh-cn/software-download/windows10)  
+[CachyOS](https://cachyos.org)  
+[Android 16 Beta](https://developer.android.com/about/versions/16)  
+[iPadOS 16.6](https://support.apple.com/zh-cn/108050)  
+[iOS 18.3.2](https://www.apple.com/ios/ios-18)
 
 ## 设备
-- 魅族 21  
+- iPhone 12 Pro 
 - iPad Pro 2017  
 - Google Pixel 6 Pro  
 - 机械革命无界 15X 暴风雪
