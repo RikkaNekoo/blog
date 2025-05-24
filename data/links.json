@@ -70,5 +70,23 @@
         "website": "https://blog.rain.cx/",
         "image": "https://blog.rain.cx/wp-content/uploads/2022/09/cropped-qyl2.png",
         "description": "二分之一少女，乘着比特流环游世界~"
+    },
+    {
+        "title": "零狼 の 小窝",
+        "website": "https://zerowolf.cn/",
+        "image": "https://q.qlogo.cn/g?b=qq&nk=3174788113&s=640",
+        "description": "为了前行而努力，即使前方不一定有光。"
+    },
+    {
+        "title": "米露小窝",
+        "website": "https://milu.ink/",
+        "image": "https://upy.milu.ink/avatar/512.png",
+        "description": "放弃个性,就和死了没什么区别"
+    },
+    {
+        "title": "liuzhen932 的小窝",
+        "website": "https://blog.liuzhen932.top/",
+        "image": "https://blog.liuzhen932.top/favicon.png",
+        "description": "只要愿意去做，人无所不通"
     }
   ]
