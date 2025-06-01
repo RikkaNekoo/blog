@@ -1,5 +1,6 @@
 ---
 title: '机械革命无界 15X Linux 优化指南'
+description: '怎么就想不开买机革呢.webp'
 slug: mechrevo-wujie15x-linux
 date: 2025-06-01T23:04:18+08:00
 categories: 开发
