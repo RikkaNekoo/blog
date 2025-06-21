@@ -36,9 +36,10 @@ jobs:
               with:
                 host: rikka.im
                 username: root
+                port: 8022
                 key: ${{ secrets.SSH_KEY }}
                 script: |
-                  cd /etc/caddy/site/blog
+                  cd /opt/caddy/srv/site/blog
                   git restore .
                   git pull
                   echo ${{ secrets.INDEXNOW_KEY }} > ${{ secrets.INDEXNOW_KEY }}.txt
