@@ -54,6 +54,10 @@ sudo udevadm trigger
 reboot
 ```
 
+## 更新 Plasma 6.4.0 后鼠标光标卡顿
+
+在设置-显示和监视器里关掉自适应同步就好了  
+就这个破问题搞了我两个星期……
 
 ## 人脸识别
 
@@ -61,8 +65,10 @@ reboot
 14X/15X 的红外摄像头是 `/dev/video2`
 
 ## 性能优化
+
 用 CachyOS，有针对 Zen4 专门优化的仓库
 
 ## 参考
+
 [Github - mechrevo14X-linux](https://github.com/sund3RRR/mechrevo14X-linux)  
 [^1]: [在机械革命无界 15XPro 暴风雪上运行 Linux](https://zeeko.dev/2025/06/running-linux-on-mechanical-revolution-15xpro-blizzard/) (感谢 Zeeko 的补充！)
