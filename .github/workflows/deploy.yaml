@@ -34,7 +34,7 @@ jobs:
             - name: Push to server
               uses: appleboy/ssh-action@v1.2.0
               with:
-                host: rikka.im
+                host: mail.rikka.im
                 username: root
                 port: 8022
                 key: ${{ secrets.SSH_KEY }}
