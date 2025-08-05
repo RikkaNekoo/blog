@@ -16,7 +16,9 @@ tags:
 
 ## RJ45 网卡
 
-你机革不知道从哪里捡的网卡，没进主线导致没驱动，只能自己装  
+你机革不知道从哪里捡的网卡，没进主线导致没驱动，只能自己装 
+
+官方驱动在 6.16 内核大爆炸，修不了，要么不要更内核要么用无线  
 
 Arch Linux 系用户: 用 AUR 的 [yt6801-dkms](https://aur.archlinux.org/packages/yt6801-dkms) (我维护的)  
 Debian/Ubuntu 系用户: [官网下载](https://www.motor-comm.com/Public/Uploads/uploadfile/files/20250430/yt6801-linux-driver-1.0.30.zip)
@@ -56,7 +58,7 @@ reboot
 
 ## 更新 Plasma 6.4.0 后鼠标光标卡顿
 
-在设置-显示和监视器里关掉自适应同步就好了  
+在设置-显示和监视器里把自适应同步改成自动或者关掉就好了  
 就这个破问题搞了我两个星期……
 
 ## 人脸识别
