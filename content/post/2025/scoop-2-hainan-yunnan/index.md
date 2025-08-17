@@ -1,6 +1,6 @@
 ---
 title: '[东张西望 2] 海南/云南行'
-description: '高原！以及琼州海峡'
+description: '琼州海峡，以及云贵高原'
 date: 2025-08-06T02:00:29+08:00
 slug: 'scoop-2-hainan-yunnan'
 categories: '东张西望'
