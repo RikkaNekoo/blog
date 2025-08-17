@@ -18,29 +18,27 @@ tags:
 
 你机革不知道从哪里捡的网卡，没进主线导致没驱动，只能自己装 
 
-官方驱动在 6.16 内核大爆炸，修不了，要么不要更内核要么用无线  
-
-Arch Linux 系用户: 用 AUR 的 [yt6801-dkms](https://aur.archlinux.org/packages/yt6801-dkms) (我维护的)  
+Arch Linux 系用户: [yt6801-dkms](https://aur.archlinux.org/packages/yt6801-dkms)<sup>AUR</sup>  
 Debian/Ubuntu 系用户: [官网下载](https://www.motor-comm.com/Public/Uploads/uploadfile/files/20250430/yt6801-linux-driver-1.0.30.zip)
 
-## 键盘背光等驱动
+## 设备驱动
 
-Arch Linux 系用户: 用 AUR 的 [mechrevo-drivers-dkms](https://aur.archlinux.org/packages/mechrevo-drivers-dkms) (也是我维护的xwx，TUXEDO 的驱动打了 patch 来支持机革)  
+Arch Linux 系用户: [mechrevo-drivers-dkms](https://aur.archlinux.org/packages/mechrevo-drivers-dkms)<sup>AUR</sup>  
 Debian/Ubuntu 系用户: 自己拉[源码](https://github.com/tuxedocomputers/tuxedo-drivers)打 [patch](https://github.com/sund3RRR/Mechrevo14X-linux/raw/master/patches/add_mechrevo_vendor.patch) 然后编译安装吧  
 
 ## 控制面板
 
-Linux 上的面板只能改一下性能配置、键盘背光等，聊胜于无吧  
+TUXEDO 的控制面板提供了绝大多数机革控制面板功能  
 装好之后在 KDE 的状态栏亮度设置里就能调整键盘背光强度和颜色了  
 
-Arch Linux 系用户: 用 AUR 的 [tuxedo-control-center-bin](https://aur.archlinux.org/packages/tuxedo-control-center-bin) (AUR 万岁！)  
+Arch Linux 系用户: [tuxedo-control-center-bin](https://aur.archlinux.org/packages/tuxedo-control-center-bin)<sup>AUR</sup>  
 Debian/Ubuntu 系用户: 按照 TUXEDO 的[教程](https://www.tuxedocomputers.com/en/Add-TUXEDO-software-package-sources.tuxedo)添加源后安装 `tuxedo-control-center` 包
 
 ## 无法睡眠
   
-14X 可以试试添加 `acpi.ec_no_wakeup=1` 到内核参数里  
+可以试试添加 `acpi.ec_no_wakeup=1` 到内核参数里  
 
-15X 新建一条 udev 规则禁用 PS/2 键盘的 Wakeup Trigger[^1]  
+如果不行的话就新建一条 udev 规则禁用 PS/2 键盘的 Wakeup Trigger[^1]  
 `/etc/udev/rules.d/99-disable-keyboard-wakeup.rules`   
 
 ```
@@ -73,4 +71,5 @@ reboot
 ## 参考
 
 [Github - mechrevo14X-linux](https://github.com/sund3RRR/mechrevo14X-linux)  
+[ArchWiki - Mechrevo WUJIE14X](https://wiki.archlinux.org/title/Mechrevo_WUJIE14X)  
 [^1]: [在机械革命无界 15XPro 暴风雪上运行 Linux](https://zeeko.dev/2025/06/running-linux-on-mechanical-revolution-15xpro-blizzard/) (感谢 Zeeko 的补充！)
