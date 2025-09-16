@@ -34,6 +34,10 @@ TUXEDO 的控制面板提供了绝大多数机革控制面板功能
 Arch Linux 系用户: [tuxedo-control-center-bin](https://aur.archlinux.org/packages/tuxedo-control-center-bin)<sup>AUR</sup>  
 Debian/Ubuntu 系用户: 按照 TUXEDO 的[教程](https://www.tuxedocomputers.com/en/Add-TUXEDO-software-package-sources.tuxedo)添加源后安装 `tuxedo-control-center` 包
 
+## 屏幕色彩校准
+从 Windows 的控制面板把 ICC profile 提取出来了，在设置里选择好就行  
+[BOE0C85_B025AA7B0639.icm](BOE0C85_B025AA7B0639.icm)
+
 ## 无法睡眠
   
 可以试试添加 `acpi.ec_no_wakeup=1` 到内核参数里  
