@@ -8,6 +8,7 @@ tags:
     - 硬件
     - 电脑
     - 评测
+fancybox: true
 ---
 
 ## 关于

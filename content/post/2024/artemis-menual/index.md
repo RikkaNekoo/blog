@@ -7,6 +7,7 @@ tags:
   - 软件
   - 教程
   - 音游
+fancybox: true
 ---
 
 ## 介绍

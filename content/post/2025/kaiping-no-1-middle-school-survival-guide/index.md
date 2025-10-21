@@ -7,6 +7,7 @@ categories: 杂谈
 tags: 
  - 学业
  - 随笔
+fancybox: true
 ---
 
 ## 首先  

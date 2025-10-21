@@ -7,6 +7,7 @@ categories: '东张西望'
 tags:
  - 旅行
  - 随笔
+fancybox: true
 ---
 
 大量图片注意！不过已经压缩并转换为 WebP，可放心流量）
