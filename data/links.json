@@ -6,6 +6,12 @@
         "description": "愿我们度过这个漫漫长夜之后，依旧能看到那旭日东升。"
     },
     {
+        "title": "Ameyama Mio's Blog",
+        "website": "https://aneko.moe/",
+        "image": "https://avatars.githubusercontent.com/u/50656066",
+        "description": "待到重逢之时，我们一定要无话不谈"
+    },
+    {
         "title": "Aki Ameyama",
         "website": "https://aki.cat",
         "image": "https://aki.cat/_next/image?url=%2Favatar.jpg&w=256&q=75",
@@ -58,12 +64,6 @@
         "website": "https://blog.nekoq.top",
         "image": "https://blog.nekoq.top/static/images/avatar.png",
         "description": "A cat lying on the keyboard."
-    },
-    {
-        "title": "橄榄菜的博客",
-        "website": "https://ganlanc.at/",
-        "image": "https://ganlanc.at/avatar.jpg",
-        "description": "一只猫！"
     },
     {
         "title": "杰帕斯の小窝",
