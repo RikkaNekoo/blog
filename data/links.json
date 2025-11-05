@@ -25,9 +25,15 @@
     },
     {
         "title": "Izumino's Blog",
-        "website": "https://blog.izumino.cat/",
-        "image": "https://izumino.cat/avatar.webp",
+        "website": "https://renna.dev/",
+        "image": "https://renna.dev/assets/avatar.webp",
         "description": "A catgirl developer"
+    },
+    {
+        "title": "/mnt/misncnady",
+        "website": "https://misncandy.moe/links/",
+        "image": "https://misncandy.moe/img/IMG_9568.jpeg",
+        "description": "我们终将在没有黑暗的地方相遇"
     },
     {
         "title": "晓雨杂记",
@@ -44,7 +50,7 @@
     {
         "title": "落雨宸",
         "website": "https://lzc256.com",
-        "image": "https://s1.lzc256.com/firefish/firefish/b05d0ba4-8b67-4ffb-9877-d3c063585c95.jpg",
+        "image": "https://rikka.im/avatar/lzc.png",
         "description": "苦逼高中牲，二分之一少女。"
     },
     {
@@ -64,6 +70,12 @@
         "website": "https://blog.nekoq.top",
         "image": "https://blog.nekoq.top/static/images/avatar.png",
         "description": "A cat lying on the keyboard."
+    },
+    {
+        "title": "橄榄菜的博客",
+        "website": "https://ganlanc.at/",
+        "image": "https://ganlanc.at/avatar.jpg",
+        "description": "一只猫！"
     },
     {
         "title": "杰帕斯の小窝",
@@ -94,11 +106,5 @@
         "website": "https://blog.liuzhen932.top/",
         "image": "https://blog.liuzhen932.top/favicon.png",
         "description": "只要愿意去做，人无所不通"
-    },
-    {
-        "title": "橄榄菜的博客",
-        "website": "https://ganlanc.at/",
-        "image": "https://ganlanc.at/avatar.jpg",
-        "description": "一只猫！"
     }
   ]
