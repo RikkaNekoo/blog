@@ -30,6 +30,8 @@ net.ipv6.conf.default.accept_ra = 2
 net.ipv6.conf.br-lan.accept_ra = 0
 ```
 
+`net.ipv6.conf.br-lan.accept_ra` 的 `br-lan` 改为实际 LAN 网卡
+
 然后执行 `sudo sysctl --system`  
 
 碎碎念：Debian 13 的 systemd-sysctl 已经忽略 `/etc/sysctl.conf` ，当时还一直纳闷为什么 sysctl -p 为什么不生效
