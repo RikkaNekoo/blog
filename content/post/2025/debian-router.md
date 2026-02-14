@@ -38,20 +38,19 @@ net.ipv6.conf.br-lan.accept_ra = 0
 
 ### 软件安装
 
-`pppoeconf`：用于宽带拨号  
-`wide-dhcpv6-client`：用于获取 IPv6 PD 前缀并配置到接口  
+`network-manager`：用于替代 ifupdown 管理网卡   
+`ppp`：用于宽带拨号  
 `dnsmasq`：用于为 LAN 提供 DNS 服务、DHCP 服务和 IPv6 路由通告服务  
 `docker` 或 `podman`：可选，稍后解释用处
 
 ## 网络接口配置
 
-如果你只有一个 LAN 口，则将以下配置添加到 `/etc/network/interfaces`
+首先，将 `/etc/network/interfaces` 中除 loopback 之外的网卡配置全部删除
+
+如果你只有一个 LAN 口，则使用   
 
 ```
-auto enp1s0
-allow-hotplug enp1s0
-iface enp1s0 inet static
-    address 10.21.0.1/24
+sudo nmcli c add type "ethernet" con-name "lan" ifname "enp1s0" ipv4.method "manual" ipv4.addresses "10.21.0.1/24"
 ```
 
 注意将 `enp1s0` 改成你的实际网卡名称， `10.21.0.1/24` 改成你想要的网段
@@ -59,112 +58,60 @@ iface enp1s0 inet static
 如果有多个 LAN 口，则需要建立桥接，配置如下
 
 ```
-auto br-lan
-iface br-lan inet static
-    address 10.21.0.1/24
-    bridge-ports eno2 eno3 eno4
-    bridge-stp off
+# 创建桥
+sudo nmcli c add type "bridge" con-name "bridge" ifname "br-lan" ipv4.method "manual" ipv4.addresses "10.21.0.1/24"
+# 将网卡添加到桥
+sudo nmcli c add type "bridge-slave" ifname "eno2" master "br-lan"
+sudo nmcli c add type "bridge-slave" ifname "eno3" master "br-lan"
+# 以此类推
 ```
 
-同样，将 `eno2` `eno3` `eno4` 改成你的实际网卡名称， `10.21.0.1/24` 改成你想要的网段
+同样，将 `eno2` `eno3` 改成你的实际网卡名称， `10.21.0.1/24` 改成你想要的网段
 
 ## 拨号
 
-插好 WAN 口网线，执行 `sudo pppconfig`，会自动检测 WAN 口并拨号  
+最初 Rikka 使用的是 ifupdown + pppconfig 的方案，但是这套方案不仅过时而且稳定性欠佳（用着用着突然出现开机不自启了  
+最终还是切换到了 NetworkManager，稳定性更好更先进而且配置也简单ww  
+
+只需要很简单的一行  
 
 ```
-┌─────────────────────┤ USE PEER DNS ├─────────────────────┐
-│ You need at least one DNS IP address to resolve the      │
-│ normal host names. Normally your provider sends you      │
-│ addresses of useable servers when the connection is      │
-│ established. Would you like to add these addresses       │
-│ automatically to the list of nameservers in your local   │
-│ /etc/resolv.conf file? (recommended)                     │
-│               <Yes>                  <No>                │
-└──────────────────────────────────────────────────────────┘
+sudo nmcli c add type "pppoe" con-name "pppoe" ifname "eno0" username "0d00" password "0721"
 ```
 
-注意这里要选 No，因为后面我们要使用 Dnsmasq 作为 DNS 服务器  
-其他选项全部 Yes 就行  
+将 `eno0` 改为实际的 WAN 网卡并修改账号密码即可完成配置  
 
-`pppconfig` 执行完之后，还需要进行一些修改  
-首先打开 `/etc/ppp/peers/dsl-provider`，并在最后一行添加 `+ipv6`，修改好的配置如下
+使用   
 
 ```
-noipdefault
-defaultroute
-replacedefaultroute
-hide-password
-#lcp-echo-interval 30
-#lcp-echo-failure 4
-noauth
-persist
-#mtu 1492
-#persist
-#maxfail 0
-#holdoff 20
-plugin rp-pppoe.so
-nic-eno1
-user "0d000721"
-+ipv6
+sudo nmcli c modify "br-lan" ipv6.method "shared"
 ```
+
+给 LAN 分配 PD，不过 NetworkManager 无法修改前缀长度，只能固定 /64
+（记得将 `br-lan` 改为实际的 LAN 配置名称
+
 然后将 `/etc/ppp/ip-up.d/0clampmss` 和 `/etc/ppp/ip-down.d/0clampmss` 分别复制到 `/etc/ppp/ipv6-up.d/0clampmss` 和 `/etc/ppp/ipv6-down.d/0clampmss`，并将里面的 `iptables` 改成 `ip6tables`  
 
-修改完后执行 `sudo systemctl restart networking` 重新拨号，此时服务器已经可以上网了，但是由于还没有配置 DNS，所以暂时只能 ping IP  
+修改完后执行 `sudo nmcli c up pppoe` 拨号，此时服务器已经可以上网了，但是由于还没有配置 DNS，所以暂时只能 ping IP  
 
-## 分配 PD
-这边使用 `wide-dhcpv6-client` 来获取 PD 并分配到 LAN  
-打开 `/etc/wide-dhcpv6/dhcp6c.conf`，修改为如下内容
 
-```
-interface ppp0 {
-    send ia-pd 0;
-};
+每次重新拨号都会有 PD 残留在 LAN 网卡，所以需要在 IPv6 下线时重启 PPPoE 以获取新的 PD，并重启 dnsmasq 重新分发
 
-id-assoc pd 0 {
-    prefix-interface br-lan {
-        sla-len 0;
-        ifid 0;
-    };
-};
-```
-
-注意 `br-lan` 修改为你实际的 LAN 网卡名称  
-`sla-len` 代表前缀长度，如果下发的是 /60 则填写 4 获得 /60+4=/64，如果下发的是 /64 填写 0，/64+0=/64，以此类推，总之最后的长度需要为 /64
-
-每次重新拨号都会有 PD 残留在 LAN 网卡，经过询问专家系统，在星野玲的方案上稍加修改，终于搞定了，还顺便解决了重启之后 wide-dhcpv6-client.sevice 自启动失败的问题  
-
-创建 `/etc/ppp/ipv6-up.d/restart_wide-dhcpv6-client` 并写入以下内容  
+创建 `/etc/ppp/ipv6-up.d/restart_dnsmasq` 并写入以下内容  
 
 ```
 #!/bin/sh
-
-systemctl restart wide-dhcpv6-client
 systemctl restart dnsmasq
-
-exit 0
 ```
 
-创建 `/etc/ppp/ipv6-down.d/del_ipv6_pd_prefix` 并写入以下内容
+创建 `/etc/ppp/ipv6-down.d/restart_pppoe` 并写入以下内容
 
 ```
 #!/usr/bin/bash
-
-INTERFACE=br-lan
-
-IPV6_ADDRESS=$(ip a show dev br-lan scope global | awk '$2 ~ /::\/64$/ {print $2}')
-
-if [[ -n "$IPV6_ADDRESS" ]]; then
-  ip addr del $IPV6_ADDRESS dev $INTERFACE
-fi
-
-exit 0
+nmcli c down pppoe && nmcli c up pppoe
 ```
 
-这里的 `br-lan` 改为你实际的 LAN 网卡
-
-解释：`del_ipv6_pd_prefix` 在 ppp0 掉线时删除分配给 LAN 的 PD  
-`restart_wide-dhcpv6-client` 则是在 ppp0 上线时重启 wide-dhcpv6-client 和 dnsmasq，给 LAN 重新分配 PD 并让 Dnsmasq 更新 DHCP 下发的地址
+这里的 `pppoe` 改为 NetroowkManager 的 PPPoE 配置名称 
 
 ## DNS 和 DHCP
 
@@ -274,5 +221,6 @@ Debian 可以折腾的可比 OpenWrt 多得多啦，慢慢发掘吧
 未来笔者或许会折腾一些更复杂的东西，比如猫棒拨号然后 VLAN 划分上网和 IPTV 什么的，敬请期待啦
 
 ## 参考
-[使用 Debian 作为路由器](https://blog.bling.moe/post/3/)  
+[使用 Debian 作为路由器](https://blog.bling.moe/post/3/)   
+[使用 NetworkManager 配置 Debian 路由器](https://blog.bling.moe/post/19/)   
 [Debian 12 软路由配置随记](https://blog.h1ra.net/post/debian-router/)
