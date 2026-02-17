@@ -87,16 +87,32 @@ sudo nmcli c add type "pppoe" con-name "pppoe" ifname "eno0" username "0d00" pas
 sudo nmcli c modify "br-lan" ipv6.method "shared"
 ```
 
-给 LAN 分配 PD，不过 NetworkManager 无法修改前缀长度，只能固定 /64
-（记得将 `br-lan` 改为实际的 LAN 配置名称
+给 LAN 分配 PD，不过 NetworkManager 无法修改前缀长度，只能固定 /64  
+（记得将 `br-lan` 改为实际的 LAN 配置名称  
 
-然后将 `/etc/ppp/ip-up.d/0clampmss` 和 `/etc/ppp/ip-down.d/0clampmss` 分别复制到 `/etc/ppp/ipv6-up.d/0clampmss` 和 `/etc/ppp/ipv6-down.d/0clampmss`，并将里面的 `iptables` 改成 `ip6tables`  
+然后在 `/etc/nftables.conf` 的最下面添加以下内容来开启 MSS 钳制  
 
-修改完后执行 `sudo nmcli c up pppoe` 拨号，此时服务器已经可以上网了，但是由于还没有配置 DNS，所以暂时只能 ping IP  
+```
+table inet filter {
+    chain forward {
+        type filter hook forward priority 0; policy accept;
+        tcp flags syn tcp option maxseg size set rt mtu
+    }
+}
+```
 
+并使用 `systemctl restart nftables` 重启 nftables  
+（不开的话大包会因为禁止分片被丢掉的哦  
 
-每次重新拨号都会有 PD 残留在 LAN 网卡，所以需要在 IPv6 下线时重启 PPPoE 以获取新的 PD，并重启 dnsmasq 重新分发
+如果不想使用 ISP 下发的 DNS 的话，可以执行下面的命令来禁用  
 
+```
+sudo nmcli c modify pppoe ipv4.ignore-auto-dns "yes" ipv6.ignore-auto-dns "yes"
+```
+
+全部弄完后执行 `sudo nmcli c up pppoe` 拨号，此时服务器已经可以上网了  
+
+每次重新拨号都会有 PD 残留在 LAN 网卡，所以需要在 IPv6 下线时重启 PPPoE 以获取新的 PD，并重启 dnsmasq 重新分发  
 创建 `/etc/ppp/ipv6-up.d/restart_dnsmasq` 并写入以下内容  
 
 ```
@@ -137,7 +153,7 @@ dhcp-option=option6:dns-server,[::]
 记得在 `/etc/resolv.conf` 第一行加入 `127.0.0.1` 哦
 
 ## 配置 NAT
-通常的教程都是使用 iptables 或者 nftables 来进行 NAT 转换，但是笔者偏不走寻常路（x  
+通常的教程都是使用 iptables 或者 nftables 来进行 NAT 转换，但是 Rikka 偏不走寻常路（x  
 让我们看向 [einat](https://github.com/EHfive/einat-ebpf)  
 
 > einat is an eBPF-based Endpoint-Independent NAT(Network Address Translation).  
