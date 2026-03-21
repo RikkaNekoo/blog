@@ -59,7 +59,7 @@ sudo nmcli c add type "ethernet" con-name "lan" ifname "enp1s0" ipv4.method "man
 
 ```
 # 创建桥
-sudo nmcli c add type "bridge" con-name "bridge" ifname "br-lan" ipv4.method "manual" ipv4.addresses "10.21.0.1/24"
+sudo nmcli c add type "bridge" con-name "br-lan" ifname "br-lan" ipv4.method "manual" ipv4.addresses "10.21.0.1/24"
 # 将网卡添加到桥
 sudo nmcli c add type "bridge-slave" ifname "eno2" master "br-lan"
 sudo nmcli c add type "bridge-slave" ifname "eno3" master "br-lan"
@@ -101,13 +101,14 @@ table inet filter {
 }
 ```
 
-并使用 `systemctl restart nftables` 重启 nftables  
+并使用 `sudo systemctl restart nftables` 重启 nftables  
 （不开的话大包会因为禁止分片被丢掉的哦  
 
 如果不想使用 ISP 下发的 DNS 的话，可以执行下面的命令来禁用  
 
 ```
 sudo nmcli c modify pppoe ipv4.ignore-auto-dns "yes" ipv6.ignore-auto-dns "yes"
+sudo nmcli c modify br-lan ipv6.ignore-auto-dns "yes"
 ```
 
 全部弄完后执行 `sudo nmcli c up pppoe` 拨号，此时服务器已经可以上网了  
@@ -165,7 +166,7 @@ dhcp-option=option6:dns-server,[::]
 ```
 wget https://github.com/EHfive/einat-ebpf/releases/download/v0.1.9/einat-static-x86_64-unknown-linux-musl
 chmod a+x einat-static-x86_64-unknown-linux-musl
-mv einat-static-x86_64-unknown-linux-musl /usr/bin/einat
+sudo mv einat-static-x86_64-unknown-linux-musl /usr/bin/einat
 ```
 
 然后创建 `/etc/systemd/system/einat.service` 实现开机自启
