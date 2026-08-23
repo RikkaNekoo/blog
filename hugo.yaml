@@ -1,5 +1,5 @@
 baseurl: https://rikka.im
-languageCode: zh_cn
+locale: zh-cn
 theme: hugo-theme-stack
 title: Rikkaの小小窝
 copyright: Shiina Rikka
@@ -18,7 +18,7 @@ hasCJKLanguage: true
 
 languages:
     zh-cn:
-        languageName: 中文
+        label: 中文
         title: Rikkaの小小窝
         weight: 2
         params:

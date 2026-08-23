@@ -4,7 +4,7 @@
     
     <div class="article-list--compact links">
         {{ $siteResources := resources }}
-        {{ range $i, $link :=  $.Site.Data.links }}
+        {{ range $i, $link :=  hugo.Data.links }}
             <article>
                 <a href="{{ $link.website }}" target="_blank" rel="noopener">
                     <div class="article-details">
