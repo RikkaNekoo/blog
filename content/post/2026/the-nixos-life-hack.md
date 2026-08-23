@@ -25,7 +25,8 @@ tags:
   systemd.services.vfio-bind-05001 = {
     description = "Bind 0000:05:00.1 to vfio-pci";
     wantedBy = [ "multi-user.target" ];
-    # sys-devices-pci0000:00-0000:00:03.0-0000:05:00.1-net-enp5s0v0.device 改为你实际的设备，上下文中的 0000:05:00.1 和 05001 同理
+    # sys-devices-pci0000:00-0000:00:03.0-0000:05:00.1-net-enp5s0v0.device
+    # 改为你实际的设备，上下文中的 0000:05:00.1 和 05001 同理
     after = [ "sys-devices-pci0000:00-0000:00:03.0-0000:05:00.1-net-enp5s0v0.device" ];
 
     serviceConfig = {
@@ -33,7 +34,7 @@ tags:
       ExecStart = pkgs.writeShellScript "bind-vfio" ''
         DEV="0000:05:00.1"
 
-        # 每 0.1s 轮训，5s 后设备未出现则中止
+        # 每 0.1s 轮询，5s 后设备未出现则中止
         for i in $(seq 1 50); do
           if [ -e /sys/bus/pci/devices/$DEV ]; then
             break
