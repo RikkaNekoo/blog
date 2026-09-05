@@ -5,15 +5,15 @@
         grid-template-columns: 1fr 1fr;
         background: none;
         box-shadow: none;
-        
+
         article {
-            background: var(--card-background);
-            border: none;
+            @include card-style;
             box-shadow: var(--shadow-l2);
-            margin-bottom: 8px;
-            border-radius: 10px;
+            margin-bottom: var(--spacing-sm);
+            overflow: hidden;
+
             &:nth-child(odd) {
-                margin-right: 8px;
+                margin-right: var(--spacing-sm);
             }
         }
     }

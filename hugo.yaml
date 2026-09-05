@@ -24,24 +24,13 @@ languages:
         params:
             description: 早上好哦(つω`*)～☆
 
-services:
-    # Change it to your Disqus shortname before using
-    disqus:
-        shortname: "hugo-theme-stack"
-    # GA Tracking ID
-    googleAnalytics:
-        id:
-
 permalinks:
     post: /post/:slug/
     page: /:slug/
 
 params:
-    fancybox: true
-
     mainSections:
         - post
-    featuredImageField: image
     rssFullContent: true
     favicon: /favicon.ico
 
@@ -56,10 +45,7 @@ params:
     sidebar:
         emoji: 😺
         subtitle: Eclipse first, the rest nowhere.
-        avatar:
-            enabled: true
-            local: true
-            src: img/avatar.webp
+        avatar: img/avatar.webp
 
     article:
         math: false
@@ -72,6 +58,10 @@ params:
     comments:
         enabled: true
         provider: twikoo
+
+        artalk:
+            serverUrl:
+            site:
 
         disqusjs:
             shortname:
@@ -95,6 +85,8 @@ params:
             host:
             site:
             locale:
+            max_shown_comments: 15
+            show_email_subscription: true
 
         vssue:
             platform:
@@ -141,6 +133,10 @@ params:
             darkTheme:
             reactionsEnabled: 1
             emitMetadata: 0
+            inputPosition: top
+            lang:
+            strict: 0
+            loading: lazy
 
         gitalk:
             owner:
@@ -148,10 +144,22 @@ params:
             repo:
             clientID:
             clientSecret:
+            proxy:
 
         cusdis:
             host:
             id:
+
+        comentario:
+            url:
+            autoInit: false
+            autoNonInteractiveSso: false
+            cssOverride:
+            lang:
+            liveUpdate: false
+            maxLevel: 0
+            noFonts: false
+            theme:
     widgets:
         homepage:
             - type: search
@@ -175,12 +183,6 @@ params:
             # Available values: summary, summary_large_image
             card: summary_large_image
 
-    defaultImage:
-        opengraph:
-            enabled: false
-            local: false
-            src:
-
     colorScheme:
         # Display toggle
         toggle: true
@@ -189,9 +191,13 @@ params:
         default: auto
 
     imageProcessing:
-        cover:
-            enabled: true
+        autoOrient: false
+        external:
+            timeout: 5s
         content:
+            enabled: true
+            widths: [800, 1600, 2400]
+        thumbnail:
             enabled: true
 
 ### Custom menu
