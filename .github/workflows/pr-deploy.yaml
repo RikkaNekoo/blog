@@ -60,7 +60,7 @@ jobs:
             });
 
             const existingReview = reviews.find(
-              review => review.body?.includes('部署了预览')
+              review => review.body?.includes('这里是预览哦')
             );
 
             if (existingReview) {
