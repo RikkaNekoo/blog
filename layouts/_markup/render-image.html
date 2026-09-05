@@ -1,0 +1,28 @@
+{{- $image := partial "helper/image" (dict "Resources" .Page.Resources "Image" .Destination "Context" .Page) -}}
+{{- $alt := .PlainText | safeHTML -}}
+{{- $title := .Title | markdownify -}}
+
+{{- $widths := slice -}}
+{{- if .Page.Site.Params.ImageProcessing.Content.Enabled -}}
+    {{- $widths = .Page.Site.Params.ImageProcessing.Content.Widths -}}
+{{- end -}}
+
+<a
+    class="lightbox-link"
+    data-fslightbox="gallery"
+    href="{{ $image.Permalink }}"
+    {{ with $title }}title="{{ . }}"{{ end }}
+>
+    {{- partial "helper/responsive-image" (dict
+        "Resource" $image.Resource
+        "Widths" $widths
+        "Attributes" (dict
+            "src" $image.Permalink
+            "width" $image.Width
+            "height" $image.Height
+            "alt" $alt
+            "loading" "lazy"
+            "sizes" "(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px"
+        )
+    ) -}}
+</a>
