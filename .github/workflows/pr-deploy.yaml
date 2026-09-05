@@ -50,7 +50,7 @@ jobs:
             const now = new Date().toISOString().substring(0, 19).replace('T', ' ');
 
             const body =
-              `这里是预览哦: https://pr-${prNumber}.blog-preview.pages.dev\n\n` +
+              `这里是预览哦: https://pr-${prNumber}.rikka-blog-preview.pages.dev\n\n` +
               `🕒 最后更新: ${now} (UTC)`;
 
             const { data: reviews } = await github.rest.pulls.listReviews({
