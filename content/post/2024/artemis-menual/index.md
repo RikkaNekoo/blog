@@ -7,7 +7,6 @@ tags:
   - 软件
   - 教程
   - 音游
-fancybox: true
 ---
 
 ## 介绍
@@ -37,10 +36,10 @@ Artemis 更新真的很快，我的更新速度可能跟不上
 Python 的安装就不多赘述了，一搜一大把，建议使用 3.11  
 记得勾上 PATH
 
-### 安装MariaDB 11
+### 安装 MariaDB 11
 安装过程略  
 在开始里找到 MySQL Client 打开登录  
-逐行输入以下命令，`<Enter Password Here>`改为你想设置的密码  
+逐行输入以下命令，`<Enter Password Here>` 改为你想设置的密码  
 
 ```sql
 CREATE USER 'aime'@'localhost' IDENTIFIED BY '<Enter Password Here>';
@@ -54,7 +53,7 @@ exit;
 ### 下载 Artemis
 
 有两种方式可选
-直接下载[Artemis-develop](https://gitea.tendokyu.moe/Hay1tsme/artemis/archive/develop.zip)后解压  
+直接下载 [Artemis-develop](https://gitea.tendokyu.moe/Hay1tsme/artemis/archive/develop.zip) 后解压  
 或者使用 git (推荐，方便更新)  
 
 ```powershell
@@ -120,7 +119,7 @@ python index.py
 ### Chunithm
 
 本文假定你游玩的是 **Chunithm Sun Plus (2.16)** 以上版本  
-如果你仍在游玩 Sun 及以下版本，请使用[AquaDX](https://github.com/hykilpikonna/AquaDX)
+如果你仍在游玩 Sun 及以下版本，请使用 [AquaDX](https://github.com/hykilpikonna/AquaDX)
 
 #### 导入资源
 

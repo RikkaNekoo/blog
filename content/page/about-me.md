@@ -3,10 +3,10 @@ date: 2024-01-07T02:29:24.830Z
 title: 关于我
 slug: about-me
 menu:
-    main:
-        weight: 5
-        params: 
-            icon: user
+  main:
+    weight: 5
+    params: 
+      icon: user
 ---
 
 ## 一些信息

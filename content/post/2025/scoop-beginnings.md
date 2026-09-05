@@ -4,7 +4,7 @@ date: 2025-02-16T00:02:35+08:00
 slug: 'scoop-beginnings'
 categories: '东张西望'
 tags:
- - 随笔
+  - 随笔
 ---
 
 是小窝的第一个系列诶！

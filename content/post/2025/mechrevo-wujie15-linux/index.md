@@ -5,9 +5,9 @@ slug: mechrevo-wujie15x-linux
 date: 2025-06-01T23:04:18+08:00
 categories: 开发
 tags: 
- - 软件
- - 电脑
- - Linux
+  - 软件
+  - 电脑
+  - Linux
 ---
 
 虽然说标题写着 15X 不过 14X 和 15X 都是通用的  

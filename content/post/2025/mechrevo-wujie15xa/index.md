@@ -5,10 +5,9 @@ date: 2025-02-03T00:48:31+08:00
 slug: mechrevo-wujie15xa
 categories: 杂物间
 tags: 
- - 评测
- - 硬件
- - 电脑
-fancybox: true
+  - 评测
+  - 硬件
+  - 电脑
 ---
 
 ## 好耶
