@@ -32,7 +32,7 @@ params:
     mainSections:
         - post
     rssFullContent: true
-    favicon: /favicon.ico
+    favicon: img/favicon.ico
 
     footer:
         since: 2024
