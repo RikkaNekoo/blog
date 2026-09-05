@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Submit to IndexNow
         uses: bojieyang/indexnow-action@v2
-          with:
-            sitemap-location: "https://rikka.im/sitemap.xml"
-            key: ${{ secrets.INDEXNOW_KEY }}
-            failure-strategy: error
+        with:
+          sitemap-location: "https://rikka.im/sitemap.xml"
+          key: ${{ secrets.INDEXNOW_KEY }}
+          failure-strategy: error
