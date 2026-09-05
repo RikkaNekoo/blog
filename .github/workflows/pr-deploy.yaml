@@ -1,0 +1,82 @@
+name: PR Deploy Preview
+
+on:
+  workflow_run:
+    workflows: ["PR Build"]
+    types: [completed]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.workflow_run.head_repository.full_name }}-${{ github.event.workflow_run.head_branch }}
+  cancel-in-progress: true
+
+permissions:
+  actions: read
+  pull-requests: write
+
+jobs:
+  deploy:
+    if: >
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success'
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: pr-website-dist
+          path: dist/
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          command: >
+            pages deploy dist
+            --project-name=rikka-blog-preview
+            --branch=pr-${{ github.event.workflow_run.pull_requests[0].number }}
+
+      - name: Pull request comment
+        uses: actions/github-script@v9
+        env:
+          PR_NUMBER: ${{ github.event.workflow_run.pull_requests[0].number }}
+        with:
+          script: |
+            const prNumber = Number(process.env.PR_NUMBER);
+            const now = new Date().toISOString().substring(0, 19).replace('T', ' ');
+
+            const body =
+              `这里是预览哦: https://pr-${prNumber}.blog-preview.pages.dev\n\n` +
+              `🕒 最后更新: ${now} (UTC)`;
+
+            const { data: reviews } = await github.rest.pulls.listReviews({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+            });
+
+            const existingReview = reviews.find(
+              review => review.body?.includes('部署了预览')
+            );
+
+            if (existingReview) {
+              await github.rest.pulls.updateReview({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: prNumber,
+                review_id: existingReview.id,
+                body,
+              });
+            } else {
+              await github.rest.pulls.createReview({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: prNumber,
+                body,
+                event: "COMMENT",
+              });
+            }

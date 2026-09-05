@@ -1,0 +1,54 @@
+name: Production Deploy
+
+on:
+  workflow_run:
+    workflows: ["Build"]
+    types:
+      - completed
+
+concurrency:
+  group: production-deploy
+  cancel-in-progress: true
+
+permissions:
+  actions: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    if: >
+      github.event.workflow_run.event == 'push' &&
+      github.event.workflow_run.head_branch == 'main' &&
+      github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: website-dist
+          path: public/
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          EXTERNAL_REPOSITORY: RikkaNekoo/rikkanekoo.github.io
+          PUBLISH_BRANCH: main
+          PUBLISH_DIR: ./public
+          commit_message: ${{ github.event.workflow_run.head_commit.message }}
+
+      - name: Push to production server
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: mail.rikka.im
+          username: root
+          port: 22
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd /var/lib/containers/caddy/srv/site/blog
+            git restore .
+            git pull
+            echo ${{ secrets.INDEXNOW_KEY }} > ${{ secrets.INDEXNOW_KEY }}.txt

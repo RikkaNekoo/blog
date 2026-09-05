@@ -1,0 +1,38 @@
+name: PR Build
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: latest
+          extended: true
+
+      - name: Build Web
+        run: hugo
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr-website-dist
+          path: public/
+          if-no-files-found: error

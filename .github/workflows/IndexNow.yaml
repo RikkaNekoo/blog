@@ -1,15 +1,16 @@
 name: IndexNow
 
 on:
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Submit to IndexNow
-              uses: bojieyang/indexnow-action@v2
-              with:
-                sitemap-location: "https://rikka.im/sitemap.xml"
-                key: ${{ secrets.INDEXNOW_KEY }}
-                failure-strategy: error
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Submit to IndexNow
+        uses: bojieyang/indexnow-action@v2
+          with:
+            sitemap-location: "https://rikka.im/sitemap.xml"
+            key: ${{ secrets.INDEXNOW_KEY }}
+            failure-strategy: error
