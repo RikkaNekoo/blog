@@ -5,9 +5,8 @@ date: 2025-08-06T02:00:29+08:00
 slug: 'scoop-2-hainan-yunnan'
 categories: '东张西望'
 tags:
- - 旅行
- - 随笔
-fancybox: true
+  - 旅行
+  - 随笔
 ---
 
 大量图片注意！不过已经压缩并转换为 WebP，可放心流量）

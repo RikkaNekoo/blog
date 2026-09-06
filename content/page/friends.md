@@ -3,10 +3,10 @@ title: 朋友们
 slug: "friends"
 layout: "links"
 menu:
-    main:
-        weight: 3
-        params: 
-            icon: link
+  main:
+    weight: 3
+    params: 
+      icon: link
 ---
 
 ## 友链信息
