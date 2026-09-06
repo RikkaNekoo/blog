@@ -21,8 +21,16 @@ languages:
         label: 中文
         title: Rikkaの小小窝
         weight: 2
+        contentDir: content/zh
         params:
             description: 早上好哦(つω`*)～☆
+    yue:
+        label: 粵語
+        title: Rikkaの小小窩
+        weight: 3
+        contentDir: content/yue
+        params:
+            description: 早晨(つω`*)～☆
 
 permalinks:
     post: /post/:slug/
